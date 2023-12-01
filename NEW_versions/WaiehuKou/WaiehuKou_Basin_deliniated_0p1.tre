@@ -15666,10 +15666,10 @@ EXTENDSIMULATION 0
 MODRATJOBCONTROLEND
 BASIN 1B
 BASINUUID 38a78667-a588-4d9f-ac91-1b1a9402f671
-BASINAREA 2693.20941111
+BASINAREA 2693.20900000
 BASINMAXFLOWDISTANCE 24371.29806433
 BASINMAXFLOWSLOPE 0.14527274
-XYZ 757489.33425139 2315732.95239431 301.37491950
+XYZ 757489.33425000 2315732.95239000 988.76286000
 HECDESCRIP 
 HECSTRTQ 0.00000000
 HECQRCSN 0.00000000
@@ -15801,10 +15801,10 @@ HMSBASEFLOW 4
 OCHYDMTN 0.0000
 OCHYDREDUCEAREA 0.00
 OCHYDFM 0.0000
-OCHYDYBAR
+OCHYDYBAR 0.0000
 OCHYDTC 0.0000
 OCHYDLAG 0.0000
-OCHYDSGRAPHS
+OCHYDSGRAPHS 0.0000 0.0000 0.0000 0.0000
 TR20CN 50.00000000
 TR20TC 1.00000000
 TR20BASINMETHOD 0
@@ -15817,7 +15817,7 @@ TR55IA 0.22200000
 TR55IAP 0.22200000
 TR55QU 162.83000000
 TR55QP 52.14800000
-TR55AREA 4.208156537466
+TR55AREA 4.208155895104
 TR55TIMECONC 0.00000000
 TR55RAINFALL 1.00000000
 TR55CURVENUMBER 90.00000000
@@ -15836,7 +15836,7 @@ STATE                0
 REGION               0
 Y2EQ                 4
 Y100EQ               5
-CTYPE                2
+CTYPE                0
 VAR1                 0.000000
 VAR2                 0.000000
 VAR3                 0.000000
@@ -15861,80 +15861,80 @@ ENDINTERVAL
 	YEAR2
 	Interval
 TC                   0
-COMPUTED             0
+COMPUTED             1
 MIN5                 0.000000
 MIN10                0.000000
 MIN15                0.000000
 MIN30                0.000000
 MIN60                0.000000
-A                    0.000000
+A                    -1.#IND00
 B                    0.000000
-M                    0.000000
+M                    1.#QNAN0
 ENDINTERVAL
 	YEAR5
 	Interval
 TC                   0
-COMPUTED             0
+COMPUTED             1
 MIN5                 0.000000
 MIN10                0.000000
 MIN15                0.000000
 MIN30                0.000000
 MIN60                0.000000
-A                    0.000000
+A                    -1.#IND00
 B                    0.000000
-M                    0.000000
+M                    1.#QNAN0
 ENDINTERVAL
 	YEAR10
 	Interval
 TC                   0
-COMPUTED             0
+COMPUTED             1
 MIN5                 0.000000
 MIN10                0.000000
 MIN15                0.000000
 MIN30                0.000000
 MIN60                0.000000
-A                    0.000000
+A                    -1.#IND00
 B                    0.000000
-M                    0.000000
+M                    1.#QNAN0
 ENDINTERVAL
 	YEAR25
 	Interval
 TC                   0
-COMPUTED             0
+COMPUTED             1
 MIN5                 0.000000
 MIN10                0.000000
 MIN15                0.000000
 MIN30                0.000000
 MIN60                0.000000
-A                    0.000000
+A                    -1.#IND00
 B                    0.000000
-M                    0.000000
+M                    1.#QNAN0
 ENDINTERVAL
 	YEAR50
 	Interval
 TC                   0
-COMPUTED             0
+COMPUTED             1
 MIN5                 0.000000
 MIN10                0.000000
 MIN15                0.000000
 MIN30                0.000000
 MIN60                0.000000
-A                    0.000000
+A                    -1.#IND00
 B                    0.000000
-M                    0.000000
+M                    1.#QNAN0
 ENDINTERVAL
 	YEAR100
 	Interval
 TC                   0
-COMPUTED             0
+COMPUTED             1
 MIN5                 0.000000
 MIN10                0.000000
 MIN15                0.000000
 MIN30                0.000000
 MIN60                0.000000
-A                    0.000000
+A                    -1.#IND00
 B                    0.000000
-M                    0.000000
+M                    1.#QNAN0
 ENDINTERVAL
 	YEAR200
 	Interval
@@ -16052,7 +16052,6 @@ RCMANRIGHT 0.01000000
 RCRLNTH 0.00000000
 RCSEL 0.00000000
 RCELMAX 0.00000000
-RCXSECSERIESINDEX 0
 ENDRSREC
 HECROUTECHANLOSSQLOSS 0.00000000
 HECROUTECHANLOSSCLOSS 0.00000000
