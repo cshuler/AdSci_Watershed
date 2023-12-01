@@ -1,0 +1,31 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     84
+COLS                     111
+TOT_TIME                 42
+TIMESTEP                 60
+OUTROW                   32
+OUTCOL                   110
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.gfl"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\2017_LandUse.idx" "7323e37e-87cb-42f6-acee-c05015b5932f" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_50m.gag"
+RAIN_INV_DISTANCE

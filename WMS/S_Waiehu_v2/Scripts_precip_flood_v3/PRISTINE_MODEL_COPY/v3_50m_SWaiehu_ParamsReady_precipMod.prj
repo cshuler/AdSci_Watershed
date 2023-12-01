@@ -1,0 +1,36 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     63
+COLS                     146
+TOT_TIME                 2880
+TIMESTEP                 60
+OUTROW                   6
+OUTCOL                   146
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\soiloTypo.idx" "9d380abe-2a11-4b79-aad2-d2417b9a1105" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\Hi_Intensity_LU.idx" "0cec3bfb-ce6d-485c-9b91-1258c4f7a264" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\Uniform_Init_Moisture_Code.idx" "5ec3aaa1-0b59-4501-b437-68376b139cc3" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\Low_intensity_LU_Map.idx" "4588aa63-b61a-4e50-bf95-601983bf364b" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\PresentDay_LU_Map.idx" "1d9be234-cfad-458b-b047-58176746ee96" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\Scripts_precip_flood_v3\RUN\v3_50m_SWaiehu_ParamsReady_precipMod.gag"
+RAIN_INV_DISTANCE

@@ -1,0 +1,140 @@
+
+
+_________GSSHA start-up information________
+Run parameters read from WMS project file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_Initial_Precip_0p4p1.prj
+reading watershed mask from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_Initial_Precip_0p4p1.msk
+number of grid cells in watershed: 6330
+reading elevation map from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_Initial_Precip_0p4p1.ele
+outlet is in grid cell: 2515
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\SoilTypeMap.idx category 8 has 6325 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\SoilTypeMap.idx category 10 has 5 values
+reading saturated hydraulic conductivity table and map from the master table file
+reading capillary drive map from the master table file
+reading porosity table and map from the master table file
+reading pore distribution index map from master table file
+reading residual saturation map from the master table file
+reading soil moisture table and map from the master table file
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Uniform_Init_Moisture_Code.idx category 1 has 6330 values
+reading roughness table and map from master table file
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx category 7 has 8 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx category 8 has 8 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx category 14 has 60 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx category 15 has 1725 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx category 16 has 347 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx category 17 has 1513 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx category 21 has 1989 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx category 22 has 680 values
+writing output for optimization to file 
+Running.... 
+
+reading precip data from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_Initial_Precip_0p4p1.gag
+
+
+         GSSHA EVENT RUNOFF SIMULATION SUMMARY
+            Event began on 00/00/1000 at 00:00
+With raingage data using inverse-distance squared interpolation.
+
+elevation and gridsize are in meters
+timestep                                    60.0 seconds
+number of timesteps with rain:             0
+elapsed time when rain began:              -1.00
+ 
+Event peak discharge (cubic meters per second):        0.0000
+
+Note: all volumes in cubic meters.
+initial volume of overland flow:                   0.0
+initial liquid-equiv. volume of snow:              0.0
+ 
+volume of melt water:                              0.0
+ 
+volume of rainfall to overland:                   0.0
+volume of interception:                           0.0
+volume of direct evaporation:                     0.0
+volume of infiltrated water:                      0.0
+volume of water exfiltrated:                      0.0
+volume of discharge:                              0.0
+volume of groundwater recharge:              107556.9
+volume from overland point sources:               0.0
+
+volume remaining on surface:                      0.0
+final volume of snow (cu. m):                     0.0
+ 
+final volume of melt water (cu. m):               0.0
+ 
+mass conservation error:                         -100.000000 percent
+Note: positive mass conservation error indicates mass was created.
+Mass input + original mass:                   0.000000 m3
+Mass output + final mass:                     0.000000 m3
+mass cleanup error from overland:             0.000000 m3
+
+Note: no rainfall was input.
+
+THE FOLLOWING WARNINGS ARE GIVEN:
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ Mass conservation error is larger than typical values (<1 percent).
+ This indicates a problem with your data set, or that you are using the model
+ to simulate an extreme event which violates one or more assumptions made
+ in the development of GSSHA.  You should first check for errors in the
+ channel inputs, including cross-sectional data.  A decrease in the model
+ time step may also help alleviate this problem.
+
+
+ THE FOLLOWING INPUTS WERE READ:
+A WMS Project File was used.
+Floating point GRASS maps were read.
+
+ THE FOLLOWING PROCESSES WERE SIMULATED:
+Distributed overland roughness.
+Distributed initial soil moisture.
+Infiltration with redistribution.
+
+ THE FOLLOWING OUTPUT MAPS WERE WRITTEN EVERY 30 TIMESTEP(S):
+Soil surface moisture maps were output.
+Infiltration rate maps were output.
+ASCII WMS maps of:
+     overland flow depth.
+
+ THE FOLLOWING ASCII OUTPUT FILES WERE WRITTEN TO EVERY 30 TIMESTEP(S):
+     hydrograph at the catchment outlet.
+
+ 
+SIMULATION TOTALS
+GLOBAL MASS BALANCE CALCULATIONS 
+All volumes are in cubic meters 
+ 
+Initial volume on surface=                                0.00 
+Initial volume in channels=                               0.00 
+Initial volume in soil over simple soil depth       1899000.00 
+Initial volume in groundwater=                            0.00 
+
+Final volume on surface=                                  0.00
+Final volume in channels=                                 0.00
+Final volume in soil over simple soil depth         1791443.13
+Final volume in groundwater=                              0.00
+Final volume of snow=                                     0.00
+Final volume of melt water =                              0.00
+
+Total amount of precip=                                   0.00
+Total amount of interception=                             0.00
+Total amount of canopy sublimation=                       0.00
+Total amount of infiltration=                             0.00
+Total amount of evaporation=                              0.00
+Total direct evaporation=                                 0.00
+Total amount of exfiltration=                             0.00
+
+Total downward flux from unsaturated zone=           107556.87
+Total flux of gw across bounds=                           0.00
+Total overland point sources=                             0.00
+Total channel point sources=                              0.00
+
+
+Total lateral inflow into channels=                       0.00
+Total amount of discharge=                                0.00
+
+Mass balance error of surface components =                0.000000 percent
+
+Overall mass balance error =                              0.000000 percent
+ 
+Simple soil moisture mass balance =                        0.000000 percent 
+
+

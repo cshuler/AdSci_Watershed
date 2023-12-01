@@ -1,0 +1,10 @@
+Parameter ,Silty clay loam New,Bedrock New,Original Silty clay loam,Original Bedrock
+Roughness,-10.000011,-10.000022,0.2,0.2
+Hydro Conductivity (GA_inflf),-20.000011,-20.000022,0.37238,0.1
+Capilary Head (GA_inflf),-20.000033,-20.000044,100,15
+Porosity (GA_inflf),-20.000055,-20.000066,50,30
+Pore Dist Index (GA_inflf),-20.000077,-20.000088,1.8,1.8
+Resid Sat (GA_inflf),-20.000099,-20.001111,0.06,0.02
+Field Capacity (GA_inflf),-20.001122,-20.001133,0.252,0.283
+Wilting Point (GA_inflf),-20.001144,-20.001155,0.094,0.164
+Soil Moisture,-30.000011,-30.000022,0.25,0.15

@@ -1,0 +1,37 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 10.000000
+ROWS                     327
+COLS                     560
+TOT_TIME                 1440
+TIMESTEP                 60
+OUTROW                   54
+OUTCOL                   482
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx" "66dafc40-3634-425c-921b-e557ed54796a" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx" "e0319036-274f-43b6-9566-a40bb8a22b89" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Uniform_Init_Moisture_Code.idx" "62a497ba-8191-46f1-90ed-fb29478cdf02" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_Soil_LU_Mapped_0p2.otl"
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2023 11 29
+START_TIME               20 57

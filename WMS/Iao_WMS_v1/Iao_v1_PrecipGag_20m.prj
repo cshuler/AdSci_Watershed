@@ -1,0 +1,30 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 20.000000
+ROWS                     209
+COLS                     277
+TOT_TIME                 43
+TIMESTEP                 60
+OUTROW                   75
+OUTCOL                   276
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\2017_Landuse.idx" "e6496eea-c5b8-47ab-b7bf-fb654b34ac00" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_PrecipGag_20m.gag"
+RAIN_INV_DISTANCE

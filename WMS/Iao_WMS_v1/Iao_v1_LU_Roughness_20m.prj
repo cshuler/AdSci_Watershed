@@ -1,0 +1,33 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m.map"
+METRIC
+GRIDSIZE                 20.000000
+ROWS                     209
+COLS                     277
+TOT_TIME                 500
+TIMESTEP                 2
+OUTROW                   75
+OUTCOL                   276
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\2017_Landuse.idx" "6e198563-5dbf-4911-a382-a3ac95bfa569" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Iao_WMS_v1\Iao_v1_LU_Roughness_20m.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2023 05 11
+START_TIME               12 33

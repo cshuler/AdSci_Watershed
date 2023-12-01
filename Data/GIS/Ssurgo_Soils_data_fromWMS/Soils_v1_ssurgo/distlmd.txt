@@ -1,0 +1,45 @@
+"Non-MLRA Soil Survey Area"|"HI980"|"Island of Maui, Hawaii"||01/01/1968 00:00:00|"certified, major components"|09/09/2019 18:43:15|"HI980
+
+    The ""AcA hq75-Alae cobbly sandy loam, 0 to 3 percent slopes"" mapunit was combined with the ""AcA 2yyrv-Alae cobbly sandy loam, 0 to 3 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 158 - Alae cobbly sandy loam, 0 to 3 percent slopes"" MLRA project"".
+    The ""AcB hq76-Alae cobbly sandy loam, 3 to 7 percent slopes"" mapunit was combined with the ""AcB 2yyrt-Alae cobbly sandy loam, 3 to 7 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 158 - Alae cobbly sandy loam, 3 to 7 percent slopes"" MLRA project"".
+    The MuA2w049-Molokai silty clay loam, 0 to 3 percent slopes, MLRA 158"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Lanai"" indicates what was edited.
+    The MuC2w04c-Molokai silty clay loam, 7 to 15 percent slopes, MLRA 158"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Lanai"" indicates what was edited.
+    The ""WgC hqc6-Waiakoa very stony silty clay loam, 7 to 15 percent slopes"" mapunit was combined with the ""WgC 2yyrk-Waiakoa very stony silty clay loam, 7 to 15 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 163 - Waiakoa very stony silty clay loam, 7 to 15 percent slopes"" MLRA project"".
+    The ""AeC hq78-Alaeloa silty clay, 7 to 15 percent slopes"" mapunit was combined with the ""AeC 2yyrr-Alaeloa silty clay, 7 to 15 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 158 - Alaeloa silty clay, 7 to 15 percent slopes"" MLRA project"".
+    The ""AaB hq74-Alae sandy loam, 3 to 7 percent slopes"" mapunit was combined with the ""AaB 2yyrw-Alae sandy loam, 3 to 7 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 163 - Alae sandy loam, 3 to 7 percent slopes"" MLRA project"".
+    The ""WgB hqc5-Waiakoa very stony silty clay loam, 3 to 7 percent slopes"" mapunit was combined with the ""WgB 2yyrl-Waiakoa very stony silty clay loam, 3 to 7 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 163 - Waiakoa very stony silty clay loam, 3 to 7 percent slopes"" MLRA project"".
+    The LaC2w03c-Lahaina silty clay, 7 to 15 percent slopes, MLRA 158"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Lanai"" indicates what was edited.
+    The JaC2w02z-Jaucas sand, 0 to 15 percent slopes, MLRA 163"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Molokai"" indicates what was edited.
+    The ""AeB hq77-Alaeloa silty clay, 3 to 7 percent slopes"" mapunit was combined with the ""AeB 2yyrs-Alaeloa silty clay, 3 to 7 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 158 - Alaeloa silty clay, 3 to 7 percent slopes"" MLRA project"".
+    The LaB2w03b-Lahaina silty clay, 3 to 7 percent slopes, MLRA 158"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Lanai"" indicates what was edited.
+    The JaC2w02z-Jaucas sand, 0 to 15 percent slopes, MLRA 163"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Lanai"" indicates what was edited.
+    The PsA2x1vv-Pulehu clay loam, 0 to 3 percent slopes , MLRA 163"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Molokai"" indicates what was edited.
+    The PsA2x1vv-Pulehu clay loam, 0 to 3 percent slopes , MLRA 163"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Lanai"" indicates what was edited.
+    The rAMD2w02v-Amalu peat, 3 to 20 percent slopes, MLRA 164"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Molokai"" indicates what was edited.
+    The MuB2w04b-Molokai silty clay loam, 3 to 7 percent slopes, MLRA 158"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Lanai"" indicates what was edited.
+    The 82km0y-Lava flows-Cinder land complex, 2 to 40 percent slopes, MLRA 161A"" mapunit was edited and improved. The name of the project ""MLRA 166 - Island of Molokai"" indicates what was edited.
+    The ""IaA hq88-Iao silty clay, 0 to 3 percent slopes"" mapunit was combined with the ""IaA 2yyrn-Iao silty clay, 0 to 3 percent slopes, MLRA 163"" map unit as a result of the ""MLRA 158 - Iao silty clay, 0 to 3 percent slopes"" MLRA project"".
+    The ""IaB hq89-Iao silty clay, 3 to 7 percent slopes"" mapunit was combined with the ""IaB 2yyrm-Iao silty clay, 3 to 7 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 163 - Iao silty clay, 3 to 7 percent slopes"" MLRA project"".
+    The ""8rVS 2km0y-Lava flows-Cinder land complex, 2 to 40 percent slopes, MLRA 161A"" hqcx-Very stony land"" mapunit was combined with the ""rVS, 8 hqcx-Very stony land"" 2km0y-Lava flows-Cinder land complex, 2 to 40 percent slopes, MLRA 161A"" map unit as a result of the ""MLRA 161A - Very Stony Land"" MLRA project"".
+    The ""EaA hq7d-Ewa silty clay loam, 0 to 3 percent slopes"" mapunit was combined with the ""EaA 2yyrq-Ewa silty clay loam, 0 to 3 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 158 - Ewa silty clay loam, 0 to 3 percent slopes"" MLRA project"".
+    The ""EcA hq7f-Ewa cobbly silty clay loam, 0 to 3 percent slopes"" mapunit was combined with the ""EcA 2yyrp-Ewa cobbly silty clay loam, 0 to 3 percent slopes, MLRA 158"" map unit as a result of the ""MLRA 158 - Ewa cobbly silty clay loam, 0 to 3 percent slopes"" MLRA project"".
+    The ""8rVS 2km0y-Lava flows-Cinder land complex, 2 to 40 percent slopes, MLRA 161A"" hqcx-Very stony land"" mapunit was combined with the ""rVS, 8 hqcx-Very stony land"" 2km0y-Lava flows-Cinder land complex, 2 to 40 percent slopes, MLRA 161A"" map unit as a result of the ""MLRA 161A - Very Stony Land"" MLRA project"".
+
+    The tabular database was edited and populated according to guidance in Exhibits A and B of National Instruction (NI-305), and Part 610 of the National Soil Survey Handbook. Any spatial data edits were certified correct by the Soil Survey region, State Soil Scientist (SSS), and by the National Digitizing Center. The SSS certified the data population for all map units, and concurred with correlation of all projects mentioned, as they were documented in Soil Survey Area Legend(s) and in the Project Correlation table.
+
+    The SSS certified the data population for all map units, and concurred with correlation of all projects mentioned, as they were documented in Soil Survey Area Legend(s) and in the Project Correlation table.
+
+    This dataset also contains the following changes:
+
+    A. All spatial data was processed and refreshed to reduce geometry size and coordinate precision of SSURGO, and to standardize the vertice density of our surveys. It is estimated that this reduced the geometry size of SSURGO to around 10 GB. This is an over 50% reduction in size, and will therefore greatly optimize our data for future usage and efficiency in publishing and interacting with it, at all levels.
+
+    B. The five national interpretations listed below are new and revised:
+        FOR - Windthrow Hazard (New for FY20)
+        FOR - Mechanical Planting Suitability
+        FOR - Mechanical Site Preparation (Deep)
+        FOR - Mechanical Site Preparation (Surface)
+        FOR - Potential Erosion Hazard (Off-Road/Off-Trail)
+
+    C. Recalculated all national and local interpretations for all components.
+
+"|"14196"|"65447"|"65349"

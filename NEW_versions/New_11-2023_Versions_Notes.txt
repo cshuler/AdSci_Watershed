@@ -1,0 +1,172 @@
+Started all with Base_Soil_LU.wms. Which has the soils and land use shapefiles already read in as coverages 
+
+
+Then for each, select 1 outlet point and deliniate basins accordingly for the 4 model area watersheds 
+
+
+Save Point 1 
+- WaiehuKou_Basin_deliniated_0p1.wms
+- Waihehe_Basin_deliniated_0p1.wms
+- S_Waiehu_Basin_deliniated_0p1.wms
+- Iao_Basin_deliniated_0p1.wms
+
+
+- S_Waiehu
+
+- Created Grid 50 m
+- run Cleandam
+- Index Map from Soil Data
+- Index Map from LU Data
+- Index Map uniform for soil moisture 
+- Job Control Params set
+
+
+Save Point S_Waiehu_Soil_LU_Mapped_0p2.wms
+
+
+Assigned Roughness with LU map as: 
+4	6	7	8	9	10	14	15	16	17	19	21	22	25
+Diversified agriculture	Fallow/grassland	Developed, open space	Developed, low-intensity	Developed, medium-intensity	Developed, high-intensity	Grassland	Shrubland	Native forest, no fog	Alien forest, no fog	Reservoir, Iao	Native forest, fog	Alien forest, fog	Taro
+													
+0.220000	0.340000	0.340000	0.180000	0.110000	0.040000	0.340000	0.270000	0.400000	0.340000	0.010000	0.400000	0.340000	0.010000
+
+Assigned Infiltration Params with Soil Map as: 
+
+1	3	4	7	8	9	11
+Cemented material	Cobbly silty clay	Silty clay	Silty clay loam	Bedrock	Sand	Clay
+						
+6.003962	0.954488	0.947102	0.154620	0.558020	33.120000	1.493916
+4.950000	29.220000	29.220000	27.300000	4.950000	4.950000	31.630000
+0.437000	0.479000	0.479000	0.471000	0.437000	0.437000	0.475000
+0.694000	0.150000	0.150000	0.177000	0.694000	0.694000	0.165000
+0.020000	0.056000	0.056000	0.040000	0.020000	0.020000	0.090000
+0.051000	0.312000	0.351000	0.304000	0.283000	0.066000	0.416000
+0.009000	0.241000	0.294000	0.169000	0.164000	0.015000	0.299000
+
+
+initial moisture
+ - using Uniform_Init_Moisture_Code Generate IDs There is one unit, I assigned initial moisture as 30% or 0.3 
+
+
+
+###########  Iao  ##########
+
+Create grid within the deliniated basin Switch to Map Module by Click on Select Feature Polygon Tool and right click anywhere within the watershed polygon. Select Create Grid.
+Using 50 m cell size.   use defaults for interpolate elevations from DEM and other otopns. 
+
+Clean out digital dams: run Cleandam: 
+- Make sure 2d grid module is active
+- Select GSSHA | Clean Digital Dams    - hit close
+
+Create an Index Map from Soil Data
+Switch to the 2D Grid Module Select GSSHA | Maps  For the Input coverage (1), use the Soil Type coverage Coverage Attribute is set to Texture. Change the Index map name to SoilType - Click on the Coverages -> Index Map button.
+
+Create an Index Map from Land Use Data
+Switch to the 2D Grid Module Select GSSHA | Maps  For the Input coverage (1), use the Soil Type coverage Coverage Attribute is set to Texture. Change the Index map name to SoilType - Click on the Coverages -> Index Map button.
+
+Job control 
+- Using total time of 1440 minutes
+- Time step of 60 sec 
+
+Output control 
+- Write Frequency 30 mins 
+- Hydrograph 30 minutes 
+- English units (CFS) 
+- Turn off surpress screen printing
+- Turn on Flood max depth 
+
+
+Save Point: Iao_Soil_LU_Mapped_0p2.wms
+
+
+Soil Type Infiltration parameters   (from https://www.gsshawiki.com/Infiltration:Parameter_Estimates) 
+8	10
+Bedrock	Bouldery silty clay loam
+	
+0.558020	10.080000
+4.950000	27.300000
+0.437000	0.471000
+0.694000	0.177000
+0.020000	0.040000
+0.283000	0.133000
+0.164000	0.092000
+
+
+
+Land Use roughness parameters:  These calcilations are in excel sheet called 
+Roughness_table_maker_from_LU_SHP.xlsx in AdSci_Watershed\Data\GIS\Land_Cover_Future_Brewington\Development_Scenarios
+
+7	8	14	15	16	17	21	22
+Developed, open space	Developed, low-intensity	Grassland	Shrubland	Native forest, no fog	Alien forest, no fog	Native forest, fog	Alien forest, fog
+							
+0.340000	0.180000	0.340000	0.270000	0.400000	0.340000	0.400000	0.340000
+
+
+
+8.5) Also need to define an initial moisture.  This is best accomplished with many model run days beforehand in long-term Sim. But because we are just comparing the different land use effects here we will just hold this constant. 
+
+ - with grid selected go to GSSHA at top,  select Maps...
+ - use Data Calculator
+ - Sdelect any existing map, 
+ - in the expression field put in 1 
+ - in the result field put in Uniform_Init_Moisture_Code
+ - be sure index map box is checked
+ - Click Compute and it will make a new map 
+
+Then - with grid selected go to GSSHA at top,  select Map Tables  On Initial moisture Tab: 
+ - using Uniform_Init_Moisture_Code
+ - Generate IDs
+ - There is one unit, I assigned initial moisture as 30% or 0.3 
+
+
+Save Point: Iao_ParamsAssigned_0p3.wms
+
+Figuring out precip gauge file to work off of 
+9-13-2016 Puukukui rain gauge file seems to be a good type storm - Largest storm on record
+
+
+
+######## WaiehuKou  ###########
+
+ Created Grid 50 m
+- run Cleandam
+- Index Map from Soil Data
+- Index Map from LU Data
+- Index Map uniform for soil moisture 
+- Job Control Params set
+
+Save Point: WaiehuKou _Soil_LU_Mapped_0p2.wms
+
+
+
+Soil Type Infiltration parameters   (from https://www.gsshawiki.com/Infiltration:Parameter_Estimates) 
+1	11	34	44	48	51	52	53
+Cemented material	Clay	Silt loam	Cobbly silty clay	Silty clay	Bedrock	Sand	Silty clay loam
+							
+6.003962	1.493916	14.220000	3.240000	5.545981	0.309961	50.760000	1.065691
+4.950000	31.630000	16.680000	29.220000	29.220000	4.950000	4.950000	27.300000
+0.437000	0.475000	0.501000	0.479000	0.479000	0.437000	0.437000	0.471000
+0.694000	0.165000	0.234000	0.150000	0.150000	0.694000	0.694000	0.177000
+0.020000	0.090000	0.015000	0.056000	0.056000	0.020000	0.020000	0.040000
+0.051000	0.416000	0.257000	0.370000	0.327000	0.263000	0.066000	0.382000
+0.009000	0.299000	0.100000	0.292000	0.258000	0.198000	0.015000	0.327000
+
+
+Land Use roughness parameters:  These calcilations are in excel sheet called 
+Roughness_table_maker_from_LU_SHP.xlsx in AdSci_Watershed\Data\GIS\Land_Cover_Future_Brewington\Development_Scenarios
+
+4	5	6	7	8	9	10	14	15	16	17	19	21	22	24
+Diversified agriculture	Macadamia	Fallow/grassland	Developed, open space	Developed, low-intensity	Developed, medium-intensity	Developed, high-intensity	Grassland	Shrubland	Native forest, no fog	Alien forest, no fog	Reservoir, Iao	Native forest, fog	Alien forest, fog	Golf course
+														
+0.220000	0.290000	0.340000	0.340000	0.180000	0.110000	0.040000	0.340000	0.270000	0.400000	0.340000	0.010000	0.400000	0.340000	0.250000
+
+
+Save Point: WaiehuKou _ParamsAssigned_0p3.wms
+
+
+
+
+
+What Are Flood zones from FEMA  https://climatecheck.com/risks/flood/what-are-the-flood-zones-in-fema-maps
+
+

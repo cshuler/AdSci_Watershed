@@ -1,0 +1,29 @@
+- in arc clipped and projected dem into WGS84-UTMz4n
+- added DEM_clip300mUTM.tif to GIS data in WMS - then r-click and converted to project DEM (Accepted defaults cell size etc)  
+- Identified Outlet points on shapemap, imported file into WMS, manually made outlet points on flow accumulation areas
+- Used deliniate basins wizard to make basins, defualt parameters
+
+
+
+Following the Tutorial file WMS_TUTORIALS-Vol_2.pdf
+
+The first step in creating a GSSHA model using WMS is to delineate a watershed and obtain a watershed boundary polygon from a digital elevation model.
+
+1) In the Drainage Module , select DEM | Compute TOPAZ Flow Data and Click OK twice to accept the default TOPAZ input.
+- saved Topaz files to a specified directory, 
+- changed units to acres and meters
+- kept model units current projection
+- ran the topaz program 
+
+2) need to create an outlet point to delineate a watershed. Create test one by using the Create Outlet Point button at the location where there is a USGS gauge used Ad_Sci_USGS_gauges.shp to see and manually plopped outlet point on the southernmost stream gauge
+
+3)  Select DEM | Delineate Basins Wizard   used a default threshold of 320 acres (took a while to run) 
+
+Save point: Exp2_sp_1p0_Basin_deliniated
+
+4) Create grid within the deliniated basin Switch to Map Module by Click on Select Feature Polygon Tool and right click anywhere within the watershed polygon. Select Create Grid.(pg 1-4)  (for testing used base cell size of 100 (10 is better and 5 is max for 5m dem) use defaults for interpolate elevations from DEM and other otopns. 
+
+
+
+
+

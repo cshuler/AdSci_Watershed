@@ -1,0 +1,77 @@
+ID,Name,Param_Type,Map_Coverage,Param_Code,Param_code_dumb,Base_Val
+4,Diversified agriculture,Roughness ,LandUse,-104,"""-104.000000""",0.216
+5,Macadamia,Roughness ,LandUse,-105,"""-105.000000""",0.29
+6,Fallow/grassland,Roughness ,LandUse,-106,"""-106.000000""",0.338
+7,"Developed, open space",Roughness ,LandUse,-107,"""-107.000000""",0.338
+8,"Developed, low-intensity",Roughness ,LandUse,-108,"""-108.000000""",0.182
+9,"Developed, medium-intensity",Roughness ,LandUse,-109,"""-109.000000""",0.11
+10,"Developed, high-intensity",Roughness ,LandUse,-1010,"""-1010.000000""",0.042
+11,Water body,Roughness ,LandUse,-1011,"""-1011.000000""",0.011
+12,Wetland,Roughness ,LandUse,-1012,"""-1012.000000""",0.062
+13,Sparsely vegetated,Roughness ,LandUse,-1013,"""-1013.000000""",0.162
+14,Grassland,Roughness ,LandUse,-1014,"""-1014.000000""",0.338
+15,Shrubland,Roughness ,LandUse,-1015,"""-1015.000000""",0.27
+16,"Native forest, no fog",Roughness ,LandUse,-1016,"""-1016.000000""",0.401
+17,"Alien forest, no fog",Roughness ,LandUse,-1017,"""-1017.000000""",0.344
+18,"Tree plantation, no fog",Roughness ,LandUse,-1018,"""-1018.000000""",0.29
+19,"Reservoir, Iao",Roughness ,LandUse,-1019,"""-1019.000000""",0.011
+21,"Native forest, fog",Roughness ,LandUse,-1021,"""-1021.000000""",0.401
+22,"Alien forest, fog",Roughness ,LandUse,-1022,"""-1022.000000""",0.344
+24,Golf course,Roughness ,LandUse,-1024,"""-1024.000000""",0.247
+25,Taro,Roughness ,LandUse,-1025,"""-1025.000000""",0.011
+,,,,,,
+1,Cemented material,HYDR_COND,Soils,-201,"""-201.000000""",6.003
+1,Cemented material,CAPIL_HEAD,Soils,-211,"""-211.000000""",4.95
+1,Cemented material,POROSITY,Soils,-221,"""-221.000000""",0.437
+1,Cemented material,PORE_INDEX,Soils,-231,"""-231.000000""",0.694
+1,Cemented material,RESID_SAT,Soils,-241,"""-241.000000""",0.02
+1,Cemented material,FIELD_CAPACITY,Soils,-251,"""-251.000000""",0.051
+1,Cemented material,WILTING_PT,Soils,-261,"""-261.000000""",0.009
+,,,,,,
+5,Cobbly silty clay,HYDR_COND,Soils,-205,"""-205.000000""",0.954
+5,Cobbly silty clay,CAPIL_HEAD,Soils,-215,"""-215.000000""",29.22
+5,Cobbly silty clay,POROSITY,Soils,-225,"""-225.000000""",0.479
+5,Cobbly silty clay,PORE_INDEX,Soils,-235,"""-235.000000""",0.15
+5,Cobbly silty clay,RESID_SAT,Soils,-245,"""-245.000000""",0.056
+5,Cobbly silty clay,FIELD_CAPACITY,Soils,-255,"""-255.000000""",0.312
+5,Cobbly silty clay,WILTING_PT,Soils,-265,"""-265.000000""",0.241
+,,,,,,
+6,Silty clay,HYDR_COND,Soils,-206,"""-206.000000""",0.947
+6,Silty clay,CAPIL_HEAD,Soils,-216,"""-216.000000""",29.22
+6,Silty clay,POROSITY,Soils,-226,"""-226.000000""",0.479
+6,Silty clay,PORE_INDEX,Soils,-236,"""-236.000000""",0.15
+6,Silty clay,RESID_SAT,Soils,-246,"""-246.000000""",0.056
+6,Silty clay,FIELD_CAPACITY,Soils,-256,"""-256.000000""",0.351
+6,Silty clay,WILTING_PT,Soils,-266,"""-266.000000""",0.294
+,,,,,,
+7,Silty clay loam,HYDR_COND,Soils,-207,"""-207.000000""",0.154
+7,Silty clay loam,CAPIL_HEAD,Soils,-217,"""-217.000000""",27.3
+7,Silty clay loam,POROSITY,Soils,-227,"""-227.000000""",0.471
+7,Silty clay loam,PORE_INDEX,Soils,-237,"""-237.000000""",0.177
+7,Silty clay loam,RESID_SAT,Soils,-247,"""-247.000000""",0.04
+7,Silty clay loam,FIELD_CAPACITY,Soils,-257,"""-257.000000""",0.304
+7,Silty clay loam,WILTING_PT,Soils,-267,"""-267.000000""",0.169
+,,,,,,
+8,Bedrock,HYDR_COND,Soils,-208,"""-208.000000""",0.558
+8,Bedrock,CAPIL_HEAD,Soils,-218,"""-218.000000""",4.95
+8,Bedrock,POROSITY,Soils,-228,"""-228.000000""",0.437
+8,Bedrock,PORE_INDEX,Soils,-238,"""-238.000000""",0.694
+8,Bedrock,RESID_SAT,Soils,-248,"""-248.000000""",0.02
+8,Bedrock,FIELD_CAPACITY,Soils,-258,"""-258.000000""",0.283
+8,Bedrock,WILTING_PT,Soils,-268,"""-268.000000""",0.164
+,,,,,,
+9,Sand,HYDR_COND,Soils,-209,"""-209.000000""",33.12
+9,Sand,CAPIL_HEAD,Soils,-219,"""-219.000000""",4.95
+9,Sand,POROSITY,Soils,-229,"""-229.000000""",0.437
+9,Sand,PORE_INDEX,Soils,-239,"""-239.000000""",0.694
+9,Sand,RESID_SAT,Soils,-249,"""-249.000000""",0.02
+9,Sand,FIELD_CAPACITY,Soils,-259,"""-259.000000""",0.066
+9,Sand,WILTING_PT,Soils,-269,"""-269.000000""",0.015
+,,,,,,
+11,Clay,HYDR_COND,Soils,-2011,"""-2011.000000""",1.493
+11,Clay,CAPIL_HEAD,Soils,-2111,"""-2111.000000""",31.63
+11,Clay,POROSITY,Soils,-2211,"""-2211.000000""",0.475
+11,Clay,PORE_INDEX,Soils,-2311,"""-2311.000000""",0.165
+11,Clay,RESID_SAT,Soils,-2411,"""-2411.000000""",0.09
+11,Clay,FIELD_CAPACITY,Soils,-2511,"""-2511.000000""",0.416
+11,Clay,WILTING_PT,Soils,-2611,"""-2611.000000""",0.299

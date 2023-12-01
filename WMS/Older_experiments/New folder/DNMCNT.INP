@@ -1,0 +1,299 @@
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Title Card
+ DATA: 12 JULY 1996      DEDNM VERSION 2.0
+ APPLICATION FOR TESTING AND VERIFICATION;
+ TESTING AND CALIBRATION.
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Utm Zone
+ 0
+C 
+C 
+C 
+C 
+C 
+C Utm Westing
+ 750015
+C 
+C 
+C 
+C 
+C 
+C Utm Northing
+ 2319452
+C 
+C 
+C 
+C 
+C 
+C Number of rows
+ 2534
+C 
+C 
+C 
+C 
+C 
+C Number of columns
+ 2860
+C 
+C 
+C 
+C 
+C Min DEM elevation
+ 1.200001
+C 
+C 
+C 
+C 
+C Max DEM elevation
+ 1767.402246
+C 
+C 
+C 
+C 
+C 
+C 
+C Indeterminate elevation value
+ -9999.0
+C 
+C 
+C 
+C Length of a square cell
+ 30.000000
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Orientation
+ 0
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Row coordinate
+ 2
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Column coordinate
+ 2
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Aggregation or resampling
+ 0
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Level of aggregation or resampling
+ 1
+C 
+C 
+C 
+C 
+C 
+C 
+C Smoothing of DEM raster
+ 1
+C 
+C 
+C 
+C 
+C 
+C 
+C Number of smoothing passes
+ 1
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Weighting parameters
+ 1
+ 1
+ 1
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Depression outlet
+ 0
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Partial DEM processing options
+ 0
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Option for spatially variable CSA/MSCL
+ 0
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Critical source area
+  0	INDETERMINATE CSA VALUE	INDETERMINATE MSCL VALUE
+  1	1.0				33.0
+  2	1.0				33.0
+  3	1.0				33.0
+  4	1.0				33.0
+  5	-1.0				-1.0
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C Re-run
+ 0
+C 
+C 
+C 
+C 
+C 
+C Raster checking
+ 1
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C User output options
+ 1
+C 
+C 
+C Write the input data
+ 1
+C 
+C 
+C Write the drainage network table
+ 1
+C 
+C 
+C Write the subcatchment area table
+ 1
+C 
+C 
+C 
+C Save the elevation file relief.h5
+ 1
+C 
+C 
+C Save the flowdirection file flovec.h5
+ 1
+C 
+C 
+C Save the flow accumulation file uparea.h5
+ 1
+C 
+C 
+C Save the DEDNM Report file
+ 1

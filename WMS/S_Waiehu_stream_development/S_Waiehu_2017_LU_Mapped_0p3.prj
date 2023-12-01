@@ -1,0 +1,34 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3.map"
+METRIC
+GRIDSIZE                 50.000000
+ROWS                     63
+COLS                     146
+TOT_TIME                 500
+TIMESTEP                 2
+OUTROW                   6
+OUTCOL                   146
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\soiloTypo.idx" "f4ccdd2e-9534-4074-8064-2ab137a1dcdb" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Laura_2017_LU.idx" "fc5127b7-7cb1-461b-a6a2-a7a250dad3a1" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\S_Waiehu_2017_LU_Mapped_0p3.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2023 01 20
+START_TIME               22 06

@@ -1,0 +1,37 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     63
+COLS                     146
+TOT_TIME                 2880
+TIMESTEP                 60
+OUTROW                   6
+OUTCOL                   146
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\soiloTypo.idx" "d89a4948-e045-435d-a933-4a0a59bb6c40" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\Hi_Intensity_LU.idx" "d62636b6-c402-4aae-8d31-846df6e85ab8" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\Uniform_Init_Moisture_Code.idx" "2303dc0e-6486-4336-aecc-77d87c6abc94" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\test_soil.idx" "349d39f0-8785-4fe3-ada0-7708c6d3d1df" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\Low_intesity_LU.idx" "f85094d9-9d73-41ad-bbc6-49987ec8b807" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.otl"
+QUIET
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v4p2_50m_Modify_Soils_LO_intensity-LU.gag"
+RAIN_INV_DISTANCE

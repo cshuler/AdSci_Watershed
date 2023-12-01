@@ -1,0 +1,38 @@
+
+
+_________GSSHA start-up information________
+Run parameters read from WMS project file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v2_50m_SWaiehu_ParamsReady_precipMod.prj
+reading watershed mask from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v2_50m_SWaiehu_ParamsReady_precipMod.msk
+number of grid cells in watershed: 3769
+reading elevation map from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\v2_50m_SWaiehu_ParamsReady_precipMod.ele
+outlet is in grid cell: 72
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\soiloTypo.idx category 1 has 119 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\soiloTypo.idx category 5 has 246 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\soiloTypo.idx category 6 has 812 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\soiloTypo.idx category 7 has 138 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\soiloTypo.idx category 8 has 2180 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\soiloTypo.idx category 9 has 7 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\soiloTypo.idx category 11 has 267 values
+reading saturated hydraulic conductivity table and map from the master table file
+reading capillary drive map from the master table file
+reading porosity table and map from the master table file
+reading pore distribution index map from master table file
+reading residual saturation map from the master table file
+reading soil moisture table and map from the master table file
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\Uniform_Init_Moisture_Code.idx category 1 has 3769 values
+reading roughness table and map from master table file
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 4 has 4 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 6 has 891 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 7 has 213 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 8 has 110 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 9 has 36 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 10 has 35 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 14 has 259 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 15 has 452 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 16 has 544 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 17 has 601 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 19 has 3 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 21 has 605 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 22 has 13 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_WORKSPACE\PresentDay_LU_Map.idx category 25 has 3 values
+

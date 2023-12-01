@@ -1,0 +1,65 @@
+GSSHA_INDEX_MAP_TABLES
+INDEX_MAP                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\soiloTypo.idx" "soiloTypo"
+INDEX_MAP                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\Hi_Intensity_LU.idx" "Hi_Intensity_LU"
+INDEX_MAP                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\Uniform_Init_Moisture_Code.idx" "Uniform_Init_Moisture_Code"
+INDEX_MAP                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\Low_intensity_LU_Map.idx" "Low_intensity_LU_Map"
+INDEX_MAP                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\PresentDay_LU_Map.idx" "PresentDay_LU_Map"
+ROUGHNESS "PresentDay_LU_Map"
+NUM_IDS 14
+ID    DESCRIPTION1                            DESCRIPTION2                                   ROUGH
+4     Diversified agriculture                                                             0.220000
+6     Fallow/grassland                                                                    0.340000
+7     Developed, open space                                                               0.340000
+8     Developed, low-intensity                                                            0.180000
+9     Developed, medium-intensity                                                         0.110000
+10    Developed, high-intensity                                                           0.040000
+14    Grassland                                                                           0.340000
+15    Shrubland                                                                           0.270000
+16    Native forest, no fog                                                               0.400000
+17    Alien forest, no fog                                                                0.340000
+19    Reservoir, Iao                                                                      0.010000
+21    Native forest, fog                                                                  0.400000
+22    Alien forest, fog                                                                   0.340000
+25    Taro                                                                                0.010000
+GREEN_AMPT_INFILTRATION "soiloTypo"
+NUM_IDS 7
+ID    DESCRIPTION1                            DESCRIPTION2                               HYDR_COND  CAPIL_HEAD    POROSITY  PORE_INDEX   RESID_SAT FIELD_CAPACITY  WILTING_PT
+1     Cemented material                                                                  0.500000   4.950000   0.437000   0.694000   0.020000   0.051000   0.009000
+5     Cobbly silty clay                                                                  0.500000  29.220000   0.479000   0.150000   0.056000   0.312000   0.241000
+6     Silty clay                                                                         0.100000  29.220000   0.479000   0.150000   0.056000   0.351000   0.294000
+7     Silty clay loam                                                                    0.100000  27.300000   0.471000   0.177000   0.040000   0.304000   0.169000
+8     Bedrock                                                                            0.050000   4.950000   0.437000   0.694000   0.020000   0.283000   0.164000
+9     Sand                                                                              33.120000   4.950000   0.437000   0.694000   0.020000   0.066000   0.015000
+11    Clay                                                                               0.510000  31.630000   0.475000   0.165000   0.090000   0.416000   0.299000
+GREEN_AMPT_INITIAL_SOIL_MOISTURE "Uniform_Init_Moisture_Code"
+NUM_IDS 1
+ID    DESCRIPTION1                            DESCRIPTION2                            SOIL_MOISTURE
+1     Soil moisture ID                                                                    0.300000
+RICHARDS_EQN_INFILTRATION_BROOKS  ""
+NUM_IDS 0
+MAX_NUMBER_CELLS 0
+ID    DESCRIPTION1                            DESCRIPTION2                                HYD_COND    POROSITY   RESID_SAT  SOIL_MOIST  WILTING_PT FIELD_CAPACITY       DEPTH      LAMBDA   BUB_PRESS     DELTA_Z
+RICHARDS_EQN_INFILTRATION_HAVERCAMP  ""
+NUM_IDS 0
+MAX_NUMBER_CELLS 0
+ID    DESCRIPTION1                            DESCRIPTION2                                HYD_COND    POROSITY   RESID_SAT  SOIL_MOIST  WILTING_PT FIELD_CAPACITY       DEPTH       ALPHA        BETA        AHAV        BHAV     DELTA_Z
+MULTI_LAYER_SOIL  ""
+NUM_IDS 0
+MAX_SOIL_ID 0
+ID    DESCRIPTION1                            DESCRIPTION2                                HYD_COND  PORE_INDEX  CAPIL_HEAD    POROSITY   FIELD_CAP  WILTING_PT   RESID_SAT  SOIL_MOIST       DEPTH
+EVAPOTRANSPIRATION ""
+NUM_IDS 0
+ID    DESCRIPTION1                            DESCRIPTION2                                  ALBEDO  VEG_HEIGHT  V_RAD_COEF CANOPY_RESIST
+SEDIMENTS
+NUM_SED  0
+Sediment Description                      Spec. Grav   Part. Dia     Output Filename
+SOIL_EROSION_PROPS ""
+NUM_IDS 0
+NUM_SED 0
+ID    DESCRIPTION1                            DESCRIPTION2                             SPLASH_COEF DETACH_COEF  DETACH_EXP DETACH_CRIT    SED_COEF   0 SEDIMENTS....
+GROUNDWATER ""
+NUM_IDS 0
+ID    DESCRIPTION1                            DESCRIPTION2                                HYD_COND    POROSITY
+WETLAND_PROPERTIES "wetlands"
+NUM_IDS 0
+ID                                                                                      INIT_DEPTH   RET_DEPTH RET_HYD_CON  VEG_HEIGHT VEG_HYD_CON   OVR_VEG_N

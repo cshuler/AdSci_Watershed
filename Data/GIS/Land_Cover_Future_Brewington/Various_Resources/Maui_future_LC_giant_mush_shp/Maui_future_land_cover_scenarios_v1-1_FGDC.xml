@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>Laura Brewington</origin>
+    <origin>East-West Center</origin>
+    <pubdate>20181022</pubdate>
+    <title>Maui_future_land_cover_scenarios_v1-1</title>
+    <geoform>Vector Digital Data Set (Polygon)</geoform>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>The shapefile associated with this metadata file represents different future scenarios of land use and vegetation for the Island of Maui, Hawaii. The polygons represent water-budget subareas developed by the U.S. Geological Survey as described in USGS SIR 2014-5168. The model was developed for estimating groundwater recharge and other water-budget components for each subarea, under current and future climate and land cover conditions. The four future land cover scenarios were developed by the Pacific RISA program at the East-West Center in collaboration with water resource managers, land use planners, developers, ranchers, agricultural producers, and others on Oahu and Maui. They represent a range of possible land cover futures for Maui based on different combinations of management decisions. Version 1-1 of the dataset has been updated to reflect the cessation of sugarcane farming activities in central Maui, based on an updated land cover map representing circa 2017 conditions. For more information on the methods and sources of data used to produce this shapefile, please contact the Pacific RISA program.</abstract>
+   <purpose>The future land cover scenarios in this shapefile were developed in collaboration with stakeholders on Oahu and Maui who are interested in understanding how different land cover changes may impact groundwater recharge under future climate conditions on Maui. The future land cover scenarios are intended for use by the general public as a tool to explore different land use decisions, and may be useful as map outputs, descriptive tools, or land cover inputs for other spatial and numerical models for the island of Maui.</purpose>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <rngdates>
+     <begdate>2017</begdate>
+     <enddate>2100</enddate>
+    </rngdates>
+   </timeinfo>
+   <current>See Supplemental Info</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>None planned</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-156.702355317</westbc>
+    <eastbc>-155.97393106</eastbc>
+    <northbc>21.032681547</northbc>
+    <southbc>20.56801608</southbc>
+   </bounding>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>None</themekt>
+    <themekey>land cover</themekey>
+    <themekey>land use</themekey>
+    <themekey>climate change</themekey>
+    <themekey>development planning</themekey>
+    <themekey>scenario planning</themekey>
+    <themekey>groundwater recharge</themekey>
+   </theme>
+   <theme>
+    <themekt>USGS information products</themekt>
+    <themekey>Land Use and Land Cover Map</themekey>
+   </theme>
+   <theme>
+    <themekt>USGS Thesaurus</themekt>
+    <themekey>climate change</themekey>
+    <themekey>land use change</themekey>
+    <themekey>groundwater</themekey>
+   </theme>
+   <theme>
+    <themekt>Marine Realms Information Bank (MRIB) keywords</themekt>
+    <themekey>coastal development</themekey>
+   </theme>
+  </keywords>
+  <accconst>None</accconst>
+  <useconst>Users are advised to read the dataset's metadata and USGS SIR 2014-5168 thoroughly to understand appropriate use and data limitations https://pubs.er.usgs.gov/publication/sir20145168.</useconst>
+  <ptcontac>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>East-West Center Pacific RISA program</cntorg>
+     <cntper>Laura Brewington</cntper>
+    </cntorgp>
+    <cntpos>Research Fellow</cntpos>
+    <cntaddr>
+     <addrtype>Mailing and Physical</addrtype>
+     <address>1601 East West Road</address>
+     <city>Honolulu</city>
+     <state>HI</state>
+     <postal>96848</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>808-944-7233</cntvoice>
+    <cntemail>brewingl@eastwestcenter.org</cntemail>
+   </cntinfo>
+  </ptcontac>
+  <datacred>
+   U.S Geological Survey; U.S. Forest Service; County of Maui Department of Water Supply;
+   County of Maui Department of Long-Range Planning;
+   State of Hawaii Commission on Water Resource Management
+  </datacred>
+  <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2 (Build 3552) Service Pack N/A (Build N/A)</native>
+ </idinfo>
+ <dataqual>
+  <attracc>
+   <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+  </attracc>
+  <logic>No formal logical accuracy tests were conducted.</logic>
+  <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+  <posacc>
+   <horizpa>
+    <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+   </horizpa>
+   <vertacc>
+    <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+   </vertacc>
+  </posacc>
+  <lineage>
+   <procstep>
+    <procdesc>Development of the data set by the agency / individuals identified in the 'Originator' element in the Identification Info section of the record.</procdesc>
+    <procdate>Unknown</procdate>
+   </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Vector</direct>
+  <ptvctinf>
+   <sdtsterm>
+    <sdtstype>G-polygon</sdtstype>
+    <ptvctcnt>505294</ptvctcnt>
+   </sdtsterm>
+  </ptvctinf>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <gridsys>
+     <gridsysn>Universal Transverse Mercator</gridsysn>
+     <utm>
+      <utmzone>4</utmzone>
+      <transmer>
+       <sfctrmer>0.9996</sfctrmer>
+       <longcm>-159.0</longcm>
+       <latprjo>0.0</latprjo>
+       <feast>500000.0</feast>
+       <fnorth>0.0</fnorth>
+      </transmer>
+     </utm>
+    </gridsys>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>0.6096</absres>
+      <ordres>0.6096</ordres>
+     </coordrep>
+     <plandu>Meter</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>D_North_American_1983</horizdn>
+    <ellips>GRS_1980</ellips>
+    <semiaxis>6378137.0</semiaxis>
+    <denflat>298.257222101</denflat>
+   </geodetic>
+  </horizsys>
+ </spref>
+ <eainfo>
+  <detailed>
+   <enttyp>
+    <enttypl>Attribute Table</enttypl>
+    <enttypd>Table containing attribute information associated with the data set.</enttypd>
+    <enttypds>Producer defined</enttypds>
+   </enttyp>
+   <attr>
+    <attrlabl>POLYGON_ID</attrlabl>
+    <attrdef>Unique identification number of each polygon</attrdef>
+    <attrdefs>GIS data set "Mean annual water-budget components for the Island of Maui, Hawaii, 1978-2007," available at https://pubs.er.usgs.gov/publication/sir20145168</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>1</rdommin>
+      <rdommax>505294</rdommax>
+      <attrunit>Integer</attrunit>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>AREA_SQ_M</attrlabl>
+    <attrdef>Area in square meters</attrdef>
+    <attrdefs>GIS data set "Mean annual water-budget components for the Island of Maui, Hawaii, 1978-2007," available at https://pubs.er.usgs.gov/publication/sir20145168</attrdefs>
+    <attrdomv>
+     <rdom>
+      <rdommin>5.95000064671E-06</rdommin>
+      <rdommax>58534.3597932</rdommax>
+      <attrunit>square meters</attrunit>
+     </rdom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>ilu2017</attrlabl>
+    <attrdef>Identification number of land-cover name</attrdef>
+    <attrdefs>Originator</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>2</edomv>
+      <edomvd>Pineapple</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>3</edomv>
+      <edomvd>Coffee</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>4</edomv>
+      <edomvd>Diversified agriculture</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>5</edomv>
+      <edomvd>Macadamia</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>6</edomv>
+      <edomvd>Fallow/grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>7</edomv>
+      <edomvd>Developed, open space</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>8</edomv>
+      <edomvd>Developed, low-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>9</edomv>
+      <edomvd>Developed, medium-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>10</edomv>
+      <edomvd>Developed, high-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>11</edomv>
+      <edomvd>Water body</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>12</edomv>
+      <edomvd>Wetland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>13</edomv>
+      <edomvd>Sparsely vegetated</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>14</edomv>
+      <edomvd>Grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>15</edomv>
+      <edomvd>Shrubland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>16</edomv>
+      <edomvd>Native forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>17</edomv>
+      <edomvd>Alien forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>18</edomv>
+      <edomvd>Tree plantation, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>19</edomv>
+      <edomvd>Reservoir, not Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>20</edomv>
+      <edomvd>Seed corn</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>21</edomv>
+      <edomvd>Native forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>22</edomv>
+      <edomvd>Alien forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>23</edomv>
+      <edomvd>Tree plantation, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>24</edomv>
+      <edomvd>Golf course</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>25</edomv>
+      <edomvd>Taro</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>30</edomv>
+      <edomvd>Reservoir, Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>LC_2017</attrlabl>
+    <attrdef>Name of land cover or vegetation, 2017</attrdef>
+    <attrdefs>Originator</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, fog</edomv>
+      <edomvd>Land cover is alien forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, no fog</edomv>
+      <edomvd>Land cover is alien forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Coffee</edomv>
+      <edomvd>Land cover is coffee, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, high-intensity</edomv>
+      <edomvd>Land cover is developed, high-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, low-intensity</edomv>
+      <edomvd>Land cover is developed, low-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, medium-intensity</edomv>
+      <edomvd>Land cover is developed, medium-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, open space</edomv>
+      <edomvd>Land cover is developed, open space.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Diversified agriculture</edomv>
+      <edomvd>Land cover is diversified agriculture, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Fallow/grassland</edomv>
+      <edomvd>Land cover is fallow/grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Golf course</edomv>
+      <edomvd>Land cover is golf course.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Grassland</edomv>
+      <edomvd>Land cover is grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Macadamia</edomv>
+      <edomvd>Land cover is macadamia, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, fog</edomv>
+      <edomvd>Land cover is native forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, no fog</edomv>
+      <edomvd>Land cover is native forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Pineapple</edomv>
+      <edomvd>Land cover is pineapple, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, Iao</edomv>
+      <edomvd>Land cover is reservoir and located within the Iao aquifer-system area as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, not Iao</edomv>
+      <edomvd>Land cover is reservoir and located in aquifer-system areas other than Iao as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Seed corn</edomv>
+      <edomvd>Land cover is seed corn, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Shrubland</edomv>
+      <edomvd>Land cover is shrubland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Sparsely vegetated</edomv>
+      <edomvd>Land cover is sparsely vegetated.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Taro</edomv>
+      <edomvd>Land cover is taro, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, no fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Water body</edomv>
+      <edomvd>Land cover is water body.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Wetland</edomv>
+      <edomvd>Land cover is wetland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>iluF1</attrlabl>
+    <attrdef>Identification number of future scenario land cover classes depicting low development, high forest conservation</attrdef>
+    <attrdefs>Originator</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>2</edomv>
+      <edomvd>Pineapple</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>3</edomv>
+      <edomvd>Coffee</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>4</edomv>
+      <edomvd>Diversified agriculture</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>5</edomv>
+      <edomvd>Macadamia</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>6</edomv>
+      <edomvd>Fallow/grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>7</edomv>
+      <edomvd>Developed, open space</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>8</edomv>
+      <edomvd>Developed, low-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>9</edomv>
+      <edomvd>Developed, medium-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>10</edomv>
+      <edomvd>Developed, high-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>11</edomv>
+      <edomvd>Water body</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>12</edomv>
+      <edomvd>Wetland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>13</edomv>
+      <edomvd>Sparsely vegetated</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>14</edomv>
+      <edomvd>Grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>15</edomv>
+      <edomvd>Shrubland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>16</edomv>
+      <edomvd>Native forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>17</edomv>
+      <edomvd>Alien forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>18</edomv>
+      <edomvd>Tree plantation, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>19</edomv>
+      <edomvd>Reservoir, not Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>20</edomv>
+      <edomvd>Seed corn</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>21</edomv>
+      <edomvd>Native forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>22</edomv>
+      <edomvd>Alien forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>23</edomv>
+      <edomvd>Tree plantation, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>24</edomv>
+      <edomvd>Golf course</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>25</edomv>
+      <edomvd>Taro</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>30</edomv>
+      <edomvd>Reservoir, Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>LC_F1</attrlabl>
+    <attrdef>Name of land cover or vegetation, future scenario depicting low development, high forest conservation</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, fog</edomv>
+      <edomvd>Land cover is alien forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, no fog</edomv>
+      <edomvd>Land cover is alien forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Coffee</edomv>
+      <edomvd>Land cover is coffee, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, high-intensity</edomv>
+      <edomvd>Land cover is developed, high-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, low-intensity</edomv>
+      <edomvd>Land cover is developed, low-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, medium-intensity</edomv>
+      <edomvd>Land cover is developed, medium-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, open space</edomv>
+      <edomvd>Land cover is developed, open space.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Diversified agriculture</edomv>
+      <edomvd>Land cover is diversified agriculture, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Fallow/grassland</edomv>
+      <edomvd>Land cover is fallow/grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Golf course</edomv>
+      <edomvd>Land cover is golf course.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Grassland</edomv>
+      <edomvd>Land cover is grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Macadamia</edomv>
+      <edomvd>Land cover is macadamia, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, fog</edomv>
+      <edomvd>Land cover is native forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, no fog</edomv>
+      <edomvd>Land cover is native forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Pineapple</edomv>
+      <edomvd>Land cover is pineapple, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, Iao</edomv>
+      <edomvd>Land cover is reservoir and located within the Iao aquifer-system area as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, not Iao</edomv>
+      <edomvd>Land cover is reservoir and located in aquifer-system areas other than Iao as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Seed corn</edomv>
+      <edomvd>Land cover is seed corn, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Shrubland</edomv>
+      <edomvd>Land cover is shrubland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Sparsely vegetated</edomv>
+      <edomvd>Land cover is sparsely vegetated.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Taro</edomv>
+      <edomvd>Land cover is taro, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, no fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Water body</edomv>
+      <edomvd>Land cover is water body.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Wetland</edomv>
+      <edomvd>Land cover is wetland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Source_F1</attrlabl>
+    <attrdef>Source(s) of derived future land cover for scenario depicting low development, high forest conservation</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, ALISH type = Prime/1, USDA NRCS 'prime farmland if irrigated' or 'All areas prime', proposed DHHL biofuel project in W Maui, proposed organic farm in E Maui</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Hawaii GAP Analysis Program 2005, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Hawaii GAP Analysis Program 2005, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Ladefoged et al. 2009 lands defined as pre-contact 'irrigated wetland' or 'irrigated wetland and rain-fed dryland'</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Maui Island Plan development projects database 2013</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, proposed grass/rangelands on Maui Land and Pineapple land in W Maui</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Vorsino et al. 2014 invasive species habitat suitability maps for albizia, miconia, strawberry guava, and Christmas berry, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Vorsino et al. 2014 invasive species habitat suitability maps for albizia, miconia, strawberry guava, and Christmas berry, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>iluF2</attrlabl>
+    <attrdef>Identification number of future scenario land cover classes depicting business-as-usual</attrdef>
+    <attrdefs>Originator</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>2</edomv>
+      <edomvd>Pineapple</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>3</edomv>
+      <edomvd>Coffee</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>4</edomv>
+      <edomvd>Diversified agriculture</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>5</edomv>
+      <edomvd>Macadamia</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>6</edomv>
+      <edomvd>Fallow/grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>7</edomv>
+      <edomvd>Developed, open space</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>8</edomv>
+      <edomvd>Developed, low-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>9</edomv>
+      <edomvd>Developed, medium-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>10</edomv>
+      <edomvd>Developed, high-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>11</edomv>
+      <edomvd>Water body</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>12</edomv>
+      <edomvd>Wetland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>13</edomv>
+      <edomvd>Sparsely vegetated</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>14</edomv>
+      <edomvd>Grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>15</edomv>
+      <edomvd>Shrubland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>16</edomv>
+      <edomvd>Native forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>17</edomv>
+      <edomvd>Alien forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>18</edomv>
+      <edomvd>Tree plantation, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>19</edomv>
+      <edomvd>Reservoir, not Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>20</edomv>
+      <edomvd>Seed corn</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>21</edomv>
+      <edomvd>Native forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>22</edomv>
+      <edomvd>Alien forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>23</edomv>
+      <edomvd>Tree plantation, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>24</edomv>
+      <edomvd>Golf course</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>25</edomv>
+      <edomvd>Taro</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>30</edomv>
+      <edomvd>Reservoir, Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>LC_F2</attrlabl>
+    <attrdef>Name of land cover or vegetation, future scenario depicting business-as-usual</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, fog</edomv>
+      <edomvd>Land cover is alien forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, no fog</edomv>
+      <edomvd>Land cover is alien forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Coffee</edomv>
+      <edomvd>Land cover is coffee, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, high-intensity</edomv>
+      <edomvd>Land cover is developed, high-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, low-intensity</edomv>
+      <edomvd>Land cover is developed, low-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, medium-intensity</edomv>
+      <edomvd>Land cover is developed, medium-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, open space</edomv>
+      <edomvd>Land cover is developed, open space.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Diversified agriculture</edomv>
+      <edomvd>Land cover is diversified agriculture, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Fallow/grassland</edomv>
+      <edomvd>Land cover is fallow/grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Golf course</edomv>
+      <edomvd>Land cover is golf course.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Grassland</edomv>
+      <edomvd>Land cover is grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Macadamia</edomv>
+      <edomvd>Land cover is macadamia, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, fog</edomv>
+      <edomvd>Land cover is native forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, no fog</edomv>
+      <edomvd>Land cover is native forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Pineapple</edomv>
+      <edomvd>Land cover is pineapple, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, Iao</edomv>
+      <edomvd>Land cover is reservoir and located within the Iao aquifer-system area as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, not Iao</edomv>
+      <edomvd>Land cover is reservoir and located in aquifer-system areas other than Iao as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Seed corn</edomv>
+      <edomvd>Land cover is seed corn, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Shrubland</edomv>
+      <edomvd>Land cover is shrubland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Sparsely vegetated</edomv>
+      <edomvd>Land cover is sparsely vegetated.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Taro</edomv>
+      <edomvd>Land cover is taro, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, no fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Water body</edomv>
+      <edomvd>Land cover is water body.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Wetland</edomv>
+      <edomvd>Land cover is wetland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Source_F2</attrlabl>
+    <attrdef>Source(s) of derived future land cover for scenario depicting business-as-usual</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Hawaii GAP Analysis Program 2005, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Hawaii GAP Analysis Program 2005, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Maui Island Plan development projects database 2013</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, potential tree plantation where Hawaii Mesic Lowland Forest category from LANDFIRE 2010 Biophysical Settings Layer within boundaries of Ulupalakua and Haleakala Ranches, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, potential tree plantation where Hawaii Mesic Lowland Forest category from LANDFIRE 2010 Biophysical Settings Layer within boundaries of Ulupalakua and Haleakala Ranches, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, proposed DHHL biofuel project in W Maui, proposed organic farm in E Maui</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, proposed grass/rangelands on Maui Land and Pineapple land in W Maui</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Vorsino et al. 2014 invasive species habitat suitability maps for albizia, miconia, strawberry guava, and Christmas berry, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Vorsino et al. 2014 invasive species habitat suitability maps for albizia, miconia, strawberry guava, and Christmas berry, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>iluF3</attrlabl>
+    <attrdef>Identification number of future scenario land cover classes depicting aggressive development and energy focus</attrdef>
+    <attrdefs>Originator</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>2</edomv>
+      <edomvd>Pineapple</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>3</edomv>
+      <edomvd>Coffee</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>4</edomv>
+      <edomvd>Diversified agriculture</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>5</edomv>
+      <edomvd>Macadamia</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>6</edomv>
+      <edomvd>Fallow/grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>7</edomv>
+      <edomvd>Developed, open space</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>8</edomv>
+      <edomvd>Developed, low-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>9</edomv>
+      <edomvd>Developed, medium-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>10</edomv>
+      <edomvd>Developed, high-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>11</edomv>
+      <edomvd>Water body</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>12</edomv>
+      <edomvd>Wetland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>13</edomv>
+      <edomvd>Sparsely vegetated</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>14</edomv>
+      <edomvd>Grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>15</edomv>
+      <edomvd>Shrubland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>16</edomv>
+      <edomvd>Native forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>17</edomv>
+      <edomvd>Alien forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>18</edomv>
+      <edomvd>Tree plantation, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>19</edomv>
+      <edomvd>Reservoir, not Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>20</edomv>
+      <edomvd>Seed corn</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>21</edomv>
+      <edomvd>Native forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>22</edomv>
+      <edomvd>Alien forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>23</edomv>
+      <edomvd>Tree plantation, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>24</edomv>
+      <edomvd>Golf course</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>25</edomv>
+      <edomvd>Taro</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>30</edomv>
+      <edomvd>Reservoir, Iao</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>LC_F3</attrlabl>
+    <attrdef>Name of land cover or vegetation, future scenario depicting aggressive development and energy focus</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, fog</edomv>
+      <edomvd>Land cover is alien forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, no fog</edomv>
+      <edomvd>Land cover is alien forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Coffee</edomv>
+      <edomvd>Land cover is coffee, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, high-intensity</edomv>
+      <edomvd>Land cover is developed, high-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, low-intensity</edomv>
+      <edomvd>Land cover is developed, low-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, medium-intensity</edomv>
+      <edomvd>Land cover is developed, medium-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, open space</edomv>
+      <edomvd>Land cover is developed, open space.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Diversified agriculture</edomv>
+      <edomvd>Land cover is diversified agriculture, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Fallow/grassland</edomv>
+      <edomvd>Land cover is fallow/grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Golf course</edomv>
+      <edomvd>Land cover is golf course.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Grassland</edomv>
+      <edomvd>Land cover is grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Macadamia</edomv>
+      <edomvd>Land cover is macadamia, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, fog</edomv>
+      <edomvd>Land cover is native forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, no fog</edomv>
+      <edomvd>Land cover is native forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Pineapple</edomv>
+      <edomvd>Land cover is pineapple, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, Iao</edomv>
+      <edomvd>Land cover is reservoir and located within the Iao aquifer-system area as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, not Iao</edomv>
+      <edomvd>Land cover is reservoir and located in aquifer-system areas other than Iao as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Seed corn</edomv>
+      <edomvd>Land cover is seed corn, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Shrubland</edomv>
+      <edomvd>Land cover is shrubland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Sparsely vegetated</edomv>
+      <edomvd>Land cover is sparsely vegetated.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Taro</edomv>
+      <edomvd>Land cover is taro, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, no fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Water body</edomv>
+      <edomvd>Land cover is water body.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Wetland</edomv>
+      <edomvd>Land cover is wetland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Source_F3</attrlabl>
+    <attrdef>Source(s) of derived future land cover for scenario depicting aggressive development and energy focus</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Hawaii GAP Analysis Program 2005, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Hawaii GAP Analysis Program 2005, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Maui Island Plan development projects database 2013</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, proposed fallow HCS land in central Maui, proposed fallow Maui Land and Pineapple land in W Maui</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Vorsino et al. 2014 invasive species habitat suitability maps for albizia, miconia, strawberry guava, and Christmas berry, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Vorsino et al. 2014 invasive species habitat suitability maps for albizia, miconia, strawberry guava, and Christmas berry, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>iluF4</attrlabl>
+    <attrdef>Identification number of future scenario land cover classes depicting balanced development and forest conservation</attrdef>
+    <attrdefs>Originator</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>2</edomv>
+      <edomvd>Pineapple</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>3</edomv>
+      <edomvd>Coffee</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>4</edomv>
+      <edomvd>Diversified agriculture</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>5</edomv>
+      <edomvd>Macadamia</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>6</edomv>
+      <edomvd>Fallow/grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>7</edomv>
+      <edomvd>Developed, open space</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>8</edomv>
+      <edomvd>Developed, low-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>9</edomv>
+      <edomvd>Developed, medium-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>10</edomv>
+      <edomvd>Developed, high-intensity</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>11</edomv>
+      <edomvd>Water body</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>12</edomv>
+      <edomvd>Wetland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>13</edomv>
+      <edomvd>Sparsely vegetated</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>14</edomv>
+      <edomvd>Grassland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>15</edomv>
+      <edomvd>Shrubland</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>16</edomv>
+      <edomvd>Native forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>17</edomv>
+      <edomvd>Alien forest, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>18</edomv>
+      <edomvd>Tree plantation, no fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>19</edomv>
+      <edomvd>Reservoir, not Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>20</edomv>
+      <edomvd>Seed corn</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>21</edomv>
+      <edomvd>Native forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>22</edomv>
+      <edomvd>Alien forest, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>23</edomv>
+      <edomvd>Tree plantation, fog</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>24</edomv>
+      <edomvd>Golf course</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>25</edomv>
+      <edomvd>Taro</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>30</edomv>
+      <edomvd>Reservoir, Iao</edomvd>
+      <edomvds>U.S. Geological Survey</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>LC_F4</attrlabl>
+    <attrdef>Name of land cover or vegetation, future scenario depicting balanced development and forest conservation</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, fog</edomv>
+      <edomvd>Land cover is alien forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Alien forest, no fog</edomv>
+      <edomvd>Land cover is alien forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Coffee</edomv>
+      <edomvd>Land cover is coffee, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, high-intensity</edomv>
+      <edomvd>Land cover is developed, high-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, low-intensity</edomv>
+      <edomvd>Land cover is developed, low-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, medium-intensity</edomv>
+      <edomvd>Land cover is developed, medium-intensity.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Developed, open space</edomv>
+      <edomvd>Land cover is developed, open space.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Diversified agriculture</edomv>
+      <edomvd>Land cover is diversified agriculture, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Fallow/grassland</edomv>
+      <edomvd>Land cover is fallow/grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Golf course</edomv>
+      <edomvd>Land cover is golf course.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Grassland</edomv>
+      <edomvd>Land cover is grassland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Macadamia</edomv>
+      <edomvd>Land cover is macadamia, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, fog</edomv>
+      <edomvd>Land cover is native forest. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Native forest, no fog</edomv>
+      <edomvd>Land cover is native forest. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Pineapple</edomv>
+      <edomvd>Land cover is pineapple, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, Iao</edomv>
+      <edomvd>Land cover is reservoir and located within the Iao aquifer-system area as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Reservoir, not Iao</edomv>
+      <edomvd>Land cover is reservoir and located in aquifer-system areas other than Iao as defined by the aquifer-system map (State of Hawaii, 2010).</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Seed corn</edomv>
+      <edomvd>Land cover is seed corn, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Shrubland</edomv>
+      <edomvd>Land cover is shrubland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Sparsely vegetated</edomv>
+      <edomvd>Land cover is sparsely vegetated.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Taro</edomv>
+      <edomvd>Land cover is taro, an agricultural land cover.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is within the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Tree plantation, no fog</edomv>
+      <edomvd>Land cover is tree plantation, an agricultural land cover. Area is below the 2,000-ft elevation contour, the base of the fog-interception zone.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Water body</edomv>
+      <edomvd>Land cover is water body.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Wetland</edomv>
+      <edomvd>Land cover is wetland.</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+   <attr>
+    <attrlabl>Source_F4</attrlabl>
+    <attrdef>Source(s) of derived future land cover scenario depicting balanced development and forest conservation</attrdef>
+    <attrdefs>Producer defined</attrdefs>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Hawaii GAP Analysis Program 2005, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Hawaii GAP Analysis Program 2005, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Ladefoged et al. 2009 lands defined as pre-contact 'irrigated wetland' or 'irrigated wetland and rain-fed dryland'</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Maui Island Plan development projects database 2013</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, potential tree plantation where Hawaii Mesic Lowland Forest category from LANDFIRE 2010 Biophysical Settings Layer within boundaries of Ulupalakua and Haleakala Ranches, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, potential tree plantation where Hawaii Mesic Lowland Forest category from LANDFIRE 2010 Biophysical Settings Layer within boundaries of Ulupalakua and Haleakala Ranches, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, proposed fallow HCS land in central Maui, proposed fallow Maui Land and Pineapple land in W Maui</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, proposed grass/rangelands on Maui Land and Pineapple land in W Maui</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Vorsino et al. 2014 invasive species habitat suitability maps for albizia, miconia, strawberry guava, and Christmas berry, above 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+    <attrdomv>
+     <edom>
+      <edomv>Mair 2017 land-cover map for the island of Maui, Hawaii, circa 2017, Vorsino et al. 2014 invasive species habitat suitability maps for albizia, miconia, strawberry guava, and Christmas berry, below 2000 feet</edomv>
+      <edomvd>Unknown</edomvd>
+      <edomvds>Producer defined</edomvds>
+     </edom>
+    </attrdomv>
+   </attr>
+  </detailed>
+  <overview>
+   <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+   <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata file for additional details and information.</eadetcit>
+  </overview>
+ </eainfo>
+ <distinfo>
+  <distliab>Distributor assumes no liability for misuse of data.</distliab>
+  <stdorder>
+   <digform>
+    <digtinfo>
+     <formname>Vector Digital Data Set (Polygon)</formname>
+    </digtinfo>
+   </digform>
+   <fees>None. No fees are applicable for obtaining the data set.</fees>
+  </stdorder>
+ </distinfo>
+ <metainfo>
+  <metd>20190225</metd>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <mettc>local time</mettc>
+ </metainfo>
+</metadata>

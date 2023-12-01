@@ -1,0 +1,2 @@
+"NRCS Forestland Site"|"Ecological Site Description Database"|"F160XY503HI"|"Isothermic Forest"|"18294129"|"6020487"
+"Forest ESD Colloquial Name"|"NRCS - ESIS database"|"F162XY501HI"|"Lama-Alahee-Pandanus Coastal Forest"|"18294183"|"6020488"

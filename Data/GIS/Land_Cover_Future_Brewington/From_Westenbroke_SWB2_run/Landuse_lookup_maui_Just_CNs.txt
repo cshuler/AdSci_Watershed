@@ -1,0 +1,32 @@
+0,"Background",100,100,100,100
+2,"Pineapple",42,64,76,81
+3,"Coffee",52,70,80,84
+4,"Diversified agriculture",55,72,82,85
+5,"Macadamia",44,65,77,82
+6,"Fallow/grassland",37,61,74,79
+7,"Developed, open space",37,61,74,79
+8,"Developed, low-intensity",60,75,84,87
+9,"Developed, medium-intensity",70,82,88,91
+10,"Developed, high-intensity",81,88,92,94
+11,"Water body",97,98,99,99
+12,"Wetland",78,86,91,93
+13,"Sparsely vegetated",63,77,85,88
+14,"Grassland",37,61,74,79
+15,"Shrubland",47,67,78,83
+16,"Native forest, no fog",28,55,70,76
+17,"Alien forest, no fog",36,60,74,79
+18,"Tree plantation, no fog",44,65,77,82
+19,"Reservoir, Iao",100,100,100,100
+20,"NA",100,100,100,100
+21,"Native forest, fog",28,55,70,76
+22,"Alien forest, fog",36,60,74,79
+23,"Tree plantation fog",44,65,77,82
+24,"Golf course",50,69,80,84
+25,"Taro",100,100,100,100
+26,"Sugarcane 1870",53,71,81,85
+27,"Grass_shrub 1870",37,61,74,79
+28,"Open Native Forest grass_shrub 1870",37,61,74,79
+29,"Sparse Grassland 1870",37,61,74,79
+30,"HC&S reservoirs",100,100,100,100
+41,"Sugarcane (even year)",53,71,81,85
+42,"Sugarcane (odd year)",53,71,81,85

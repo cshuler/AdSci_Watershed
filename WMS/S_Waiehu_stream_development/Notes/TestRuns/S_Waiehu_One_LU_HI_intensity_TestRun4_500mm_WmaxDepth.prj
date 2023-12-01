@@ -1,0 +1,34 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     63
+COLS                     146
+TOT_TIME                 1440
+TIMESTEP                 60
+OUTROW                   6
+OUTCOL                   146
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\soiloTypo.idx" "59be3b1e-8bd3-4a20-8e13-b6112f42cdbd" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\Hi_Intensity_LU.idx" "97fd0829-0110-4cd7-91ca-8bb16162b0dd" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\Uniform_Init_Moisture_Code.idx" "950fd5f8-bf66-4a41-90da-e5cd98ca6222" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_stream_development\Notes\TestRuns\S_Waiehu_One_LU_HI_intensity_TestRun4_500mm_WmaxDepth.gag"
+RAIN_INV_DISTANCE

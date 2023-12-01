@@ -1,0 +1,36 @@
+GSSHAPROJECT
+WMS WMS 11.1.4 (64-bit)
+WATERSHED_MASK           "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse.msk"
+PROJECT_PATH             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\"
+#LandSoil                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse.lsf"
+#PROJECTION_FILE         "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse.map"
+METRIC
+GRIDSIZE                 100.000000
+ROWS                     42
+COLS                     56
+TOT_TIME                 500
+TIMESTEP                 2
+OUTROW                   16
+OUTCOL                   56
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse.ele"
+DEPTH                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse.dep"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\SoilType.idx" "60b38015-276e-40f4-85fe-2da9817fe9d7" 1
+#INDEXGRID_GUID          "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\LandUse2017.idx" "bcc66eb7-8305-4137-a441-06f26ca4459e" 0
+#INDEXGRID_GUID          "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\LandUse2017_(2).idx" "f136984e-1f4b-4b81-91f8-acea128b2d8a" 0
+MAPPING_TABLE            "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse.cmt"
+SUMMARY                  "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse.sum"
+OUTLET_HYDRO             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p0_Add_LandUse.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2022 07 04
+START_TIME               14 12

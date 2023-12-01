@@ -1,0 +1,36 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2.map"
+METRIC
+GRIDSIZE                 25.000000
+ROWS                     126
+COLS                     292
+TOT_TIME                 500
+TIMESTEP                 2
+OUTROW                   12
+OUTCOL                   292
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2.dep"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SoilType.idx" "b9e4a4ee-b401-4a3a-a492-c45c6f2dabaa" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx" "24d6109a-499c-4edc-9e0d-ada9bd065ca9" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Uniform_Init_Moisture_Code.idx" "a8c83973-ede0-4a3a-8aa4-b5ee9450bbbb" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_0p2.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2023 11 19
+START_TIME               05 53

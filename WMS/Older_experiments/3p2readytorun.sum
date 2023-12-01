@@ -1,0 +1,108 @@
+
+
+_________GSSHA start-up information________
+Run parameters read from WMS project file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2readytorun.prj
+reading watershed mask from file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2readytorun.msk
+number of grid cells in watershed: 7009
+reading elevation map from file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2readytorun.ele
+outlet is in grid cell: 63
+reading roughness table and map from master table file
+In map C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\uniform.idx category 1 has 7009 values
+writing output for optimization to file 
+Running.... 
+
+         GSSHA EVENT RUNOFF SIMULATION SUMMARY
+            Event began on 01/30/2022 at 07:29
+   With uniform rainfall of   90.0 mm/h for  120.0 minutes.
+
+elevation and gridsize are in meters
+timestep                                    30.0 seconds
+number of timesteps with rain:             240
+elapsed time when rain began:               0.00
+ 
+peak occured on strict Julian date:       2459609.89548611
+date/time of peak discharge:              1/30/2022  9:29:30
+Event peak discharge (cubic meters per second):      166.6002
+
+Note: all volumes in cubic meters.
+initial volume of overland flow:                   0.0
+initial liquid-equiv. volume of snow:              0.0
+ 
+volume of melt water:                              0.0
+ 
+volume of rainfall to overland:             3154050.0
+volume of interception:                           0.0
+volume of direct evaporation:                     0.0
+volume of infiltrated water:                      0.0
+volume of water exfiltrated:                      0.0
+volume of discharge:                         266699.7
+volume from overland point sources:               0.0
+
+volume remaining on surface:                2887350.3
+final volume of snow (cu. m):                     0.0
+ 
+final volume of melt water (cu. m):               0.0
+ 
+mass conservation error:                          0.000000 percent
+Note: positive mass conservation error indicates mass was created.
+Mass input + original mass:             3154050.005875 m3
+Mass output + final mass:               3154050.005875 m3
+mass cleanup error from overland:             0.000000 m3
+
+
+THE FOLLOWING WARNINGS ARE GIVEN:
+
+ THE FOLLOWING INPUTS WERE READ:
+A WMS Project File was used.
+Floating point GRASS maps were read.
+
+ THE FOLLOWING PROCESSES WERE SIMULATED:
+Distributed overland roughness.
+Distributed initial soil moisture.
+
+ THE FOLLOWING OUTPUT MAPS WERE WRITTEN EVERY 60 TIMESTEP(S):
+ASCII WMS maps of:
+     overland flow depth.
+
+ THE FOLLOWING ASCII OUTPUT FILES WERE WRITTEN TO EVERY 30 TIMESTEP(S):
+     hydrograph at the catchment outlet.
+
+ 
+SIMULATION TOTALS
+GLOBAL MASS BALANCE CALCULATIONS 
+All volumes are in cubic meters 
+ 
+Initial volume on surface=                                0.00 
+Initial volume in channels=                               0.00 
+Initial volume in soils=                                  0.00 
+Initial volume in groundwater=                            0.00 
+
+Final volume on surface=                            2887350.29
+Final volume in channels=                                 0.00
+Final volume in soils=                                    0.00
+Final volume in groundwater=                              0.00
+Final volume of snow=                                     0.00
+Final volume of melt water =                              0.00
+
+Total amount of precip=                             3154050.01
+Total amount of interception=                             0.00
+Total amount of canopy sublimation=                       0.00
+Total amount of infiltration=                             0.00
+Total amount of evaporation=                              0.00
+Total direct evaporation=                                 0.00
+Total amount of exfiltration=                             0.00
+
+Total downward flux from unsaturated zone=                0.00
+Total flux of gw across bounds=                           0.00
+Total overland point sources=                             0.00
+Total channel point sources=                              0.00
+
+
+Total lateral inflow into channels=                       0.00
+Total amount of discharge=                           266699.72
+
+Mass balance error of surface components =                0.000000 percent
+
+Overall mass balance error =                              0.000000 percent
+ 
+

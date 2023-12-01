@@ -1,0 +1,32 @@
+GSSHAPROJECT
+WMS WMS 11.1.4 (64-bit)
+WATERSHED_MASK           "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined.msk"
+PROJECT_PATH             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\"
+#LandSoil                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined.lsf"
+#PROJECTION_FILE         "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined.map"
+METRIC
+GRIDSIZE                 100.000000
+ROWS                     42
+COLS                     56
+TOT_TIME                 500
+TIMESTEP                 2
+OUTROW                   16
+OUTCOL                   56
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined.ele"
+DEPTH                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined.dep"
+OVERTYPE                 ADE
+MAPPING_TABLE            "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined.cmt"
+SUMMARY                  "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined.sum"
+OUTLET_HYDRO             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_2p0_Grid_100m_Defined.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2022 07 04
+START_TIME               14 12

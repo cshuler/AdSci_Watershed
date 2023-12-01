@@ -1,0 +1,34 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     66
+COLS                     112
+TOT_TIME                 1500
+TIMESTEP                 60
+OUTROW                   14
+OUTCOL                   96
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilType.idx" "fa4a116b-23d0-4bf9-86e5-a743e2ccab38" 1
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v2\SoilsMapped_v0p0.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2022 11 27
+START_TIME               20 10

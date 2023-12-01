@@ -1,0 +1,33 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 100.000000
+ROWS                     101
+COLS                     109
+TOT_TIME                 1500
+TIMESTEP                 60
+OUTROW                   17
+OUTCOL                   92
+OUTSLOPE                 0.010000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins.dep"
+SURF_MOIST               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins.sur"
+OVERTYPE                 ADE
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Older_experiments\Junk\example_all_Basins.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           80.000000
+RAIN_DURATION            120
+START_DATE               2022 01 27
+START_TIME               10 52

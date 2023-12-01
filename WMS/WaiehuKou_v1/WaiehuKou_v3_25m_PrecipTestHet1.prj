@@ -1,0 +1,30 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 25.000000
+ROWS                     131
+COLS                     224
+TOT_TIME                 1500
+TIMESTEP                 60
+OUTROW                   26
+OUTCOL                   191
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\soTYpo.idx" "3db1d70a-ead3-4d3e-b1ea-7fa85d9a8aa5" 1
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v3_25m_PrecipTestHet1.gag"
+RAIN_INV_DISTANCE

@@ -1,0 +1,145 @@
+
+
+_________GSSHA start-up information________
+Run parameters read from WMS project file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_1p0_testing_Precips.prj
+reading watershed mask from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_1p0_testing_Precips.msk
+number of grid cells in watershed: 15040
+reading elevation map from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_1p0_testing_Precips.ele
+outlet is in grid cell: 284
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SoilType.idx category 1 has 477 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SoilType.idx category 3 has 969 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SoilType.idx category 4 has 3267 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SoilType.idx category 7 has 543 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SoilType.idx category 8 has 8675 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SoilType.idx category 9 has 26 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SoilType.idx category 11 has 1083 values
+reading saturated hydraulic conductivity table and map from the master table file
+reading capillary drive map from the master table file
+reading porosity table and map from the master table file
+reading pore distribution index map from master table file
+reading residual saturation map from the master table file
+reading soil moisture table and map from the master table file
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Uniform_Init_Moisture_Code.idx category 1 has 15040 values
+reading roughness table and map from master table file
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 4 has 13 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 6 has 3588 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 7 has 819 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 8 has 435 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 9 has 145 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 10 has 149 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 14 has 1030 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 15 has 1762 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 16 has 2148 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 17 has 2468 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 19 has 18 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 21 has 2427 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 22 has 31 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\Land_UsePresDay.idx category 25 has 7 values
+writing output for optimization to file 
+Running.... 
+
+reading precip data from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\11-19-23-S-Waiehu_Stage\SWaihu_Stage_LU_1p0_testing_Precips.gag
+
+
+         GSSHA EVENT RUNOFF SIMULATION SUMMARY
+            Event began on 11/19/2023 at 05:53
+With raingage data using inverse-distance squared interpolation.
+
+elevation and gridsize are in meters
+timestep                                    60.0 seconds
+number of timesteps with rain:             1433
+elapsed time when rain began:               0.00
+ 
+peak occured on strict Julian date:       2460268.32986111
+date/time of peak discharge:              11/19/2023  19:55:00
+Event peak discharge (cubic meters per second):       83.9618
+
+Note: all volumes in cubic meters.
+initial volume of overland flow:                   0.0
+initial liquid-equiv. volume of snow:              0.0
+ 
+volume of melt water:                              0.0
+ 
+volume of rainfall to overland:             2346710.0
+volume of interception:                           0.0
+volume of direct evaporation:                     0.0
+volume of infiltrated water:                1435484.0
+volume of water exfiltrated:                      0.0
+volume of discharge:                         812829.0
+volume of groundwater recharge:              916370.9
+volume from overland point sources:               0.0
+
+volume remaining on surface:                  98397.0
+final volume of snow (cu. m):                     0.0
+ 
+final volume of melt water (cu. m):               0.0
+ 
+mass conservation error:                          0.000000 percent
+Note: positive mass conservation error indicates mass was created.
+Mass input + original mass:             2346709.997004 m3
+Mass output + final mass:               2346709.996983 m3
+mass cleanup error from overland:             0.000000 m3
+
+
+THE FOLLOWING WARNINGS ARE GIVEN:
+No Warnings.
+
+ THE FOLLOWING INPUTS WERE READ:
+A WMS Project File was used.
+Floating point GRASS maps were read.
+
+ THE FOLLOWING PROCESSES WERE SIMULATED:
+Distributed overland roughness.
+Distributed initial soil moisture.
+Infiltration with redistribution.
+
+ THE FOLLOWING OUTPUT MAPS WERE WRITTEN EVERY 30 TIMESTEP(S):
+Soil surface moisture maps were output.
+Infiltration rate maps were output.
+ASCII WMS maps of:
+     overland flow depth.
+
+ THE FOLLOWING ASCII OUTPUT FILES WERE WRITTEN TO EVERY 30 TIMESTEP(S):
+     hydrograph at the catchment outlet.
+
+ 
+SIMULATION TOTALS
+GLOBAL MASS BALANCE CALCULATIONS 
+All volumes are in cubic meters 
+ 
+Initial volume on surface=                                0.00 
+Initial volume in channels=                               0.00 
+Initial volume in soil over simple soil depth       1128000.00 
+Initial volume in groundwater=                            0.00 
+
+Final volume on surface=                              98396.99
+Final volume in channels=                                 0.00
+Final volume in soil over simple soil depth         1647113.11
+Final volume in groundwater=                              0.00
+Final volume of snow=                                     0.00
+Final volume of melt water =                              0.00
+
+Total amount of precip=                             2346710.00
+Total amount of interception=                             0.00
+Total amount of canopy sublimation=                       0.00
+Total amount of infiltration=                       1435484.04
+Total amount of evaporation=                              0.00
+Total direct evaporation=                                 0.00
+Total amount of exfiltration=                             0.00
+
+Total downward flux from unsaturated zone=           916370.93
+Total flux of gw across bounds=                           0.00
+Total overland point sources=                             0.00
+Total channel point sources=                              0.00
+
+
+Total lateral inflow into channels=                       0.00
+Total amount of discharge=                           812828.96
+
+Mass balance error of surface components =               -0.000000 percent
+
+Overall mass balance error =                              0.000000 percent
+ 
+Simple soil moisture mass balance =                        0.000000 percent 
+
+

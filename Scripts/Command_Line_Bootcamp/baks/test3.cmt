@@ -1,0 +1,18 @@
+GSSHA_INDEX_MAP_TABLES
+INDEX_MAP                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\Scripts\Command_Line_Bootcamp\RUN\Uniform.idx" "Uniform"
+INDEX_MAP                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\Scripts\Command_Line_Bootcamp\RUN\Soil_typo.idx" "Soil_typo"
+ROUGHNESS "Soil_typo"
+NUM_IDS 2
+ID    DESCRIPTION1                            DESCRIPTION2                                   ROUGH
+1     Silty clay loam                                                                     99999999
+2     Bedrock                                                                             88888888
+GREEN_AMPT_INFILTRATION "Soil_typo"
+NUM_IDS 2
+ID    DESCRIPTION1                            DESCRIPTION2                               HYDR_COND  CAPIL_HEAD    POROSITY  PORE_INDEX   RESID_SAT FIELD_CAPACITY  WILTING_PT
+1     Silty clay loam                                                                    0.372380 100.000000  50.000000   1.800000   0.060000   0.252000   0.094000
+2     Bedrock                                                                            0.100000  15.000000  30.000000   1.800000   0.020000   0.283000   0.164000
+GREEN_AMPT_INITIAL_SOIL_MOISTURE "Soil_typo"
+NUM_IDS 2
+ID    DESCRIPTION1                            DESCRIPTION2                            SOIL_MOISTURE
+1     Silty clay loam                                                                     0.250000
+2     Bedrock                                                                             0.150000

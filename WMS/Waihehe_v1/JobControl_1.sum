@@ -1,0 +1,28 @@
+
+
+_________GSSHA start-up information________
+Run parameters read from WMS project file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\JobControl_1.prj
+reading watershed mask from file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\JobControl_1.msk
+number of grid cells in watershed: 1100
+reading elevation map from file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\JobControl_1.ele
+outlet is in grid cell: 31
+In map C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\SoilTypeo.idx category 1 has 23 values
+In map C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\SoilTypeo.idx category 2 has 1077 values
+reading saturated hydraulic conductivity table and map from the master table file
+reading capillary drive map from the master table file
+reading porosity table and map from the master table file
+reading pore distribution index map from master table file
+reading residual saturation map from the master table file
+reading soil moisture table and map from the master table file
+In map C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\SoilTypeo.idx category 1 has 23 values
+In map C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\SoilTypeo.idx category 2 has 1077 values
+reading roughness table and map from master table file
+In map C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\SoilTypeo.idx category 1 has 23 values
+In map C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\SoilTypeo.idx category 2 has 1077 values
+writing output for optimization to file 
+Running.... 
+
+reading precip data from file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\JobControl_1.gag
+
+
+

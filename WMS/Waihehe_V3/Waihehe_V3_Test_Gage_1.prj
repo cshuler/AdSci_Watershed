@@ -1,0 +1,29 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 100.000000
+ROWS                     52
+COLS                     40
+TOT_TIME                 7200
+TIMESTEP                 60
+OUTROW                   4
+OUTCOL                   38
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Uniform.idx" "034a1605-4ea7-4a6f-9fe3-5c02153ac92c" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V3\Waihehe_V3_Test_Gage_1.gag"
+RAIN_INV_DISTANCE

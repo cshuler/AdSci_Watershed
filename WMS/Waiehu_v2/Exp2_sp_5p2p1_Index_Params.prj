@@ -1,0 +1,30 @@
+GSSHAPROJECT
+WMS WMS 11.1.4 (64-bit)
+WATERSHED_MASK           "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.msk"
+PROJECT_PATH             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\"
+#LandSoil                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.lsf"
+#PROJECTION_FILE         "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.map"
+METRIC
+GRIDSIZE                 100.000000
+ROWS                     42
+COLS                     56
+TOT_TIME                 1430
+TIMESTEP                 60
+OUTROW                   16
+OUTCOL                   56
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.ele"
+DEPTH                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\SoilType.idx" "f8f36716-ffcd-4463-9917-396d4c8e69ea" 1
+MAPPING_TABLE            "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.cmt"
+SUMMARY                  "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.sum"
+OUTLET_HYDRO             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.otl"
+QUIET
+PRECIP_FILE              "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.gag"
+RAIN_INV_DISTANCE

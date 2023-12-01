@@ -1,0 +1,34 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 100.000000
+ROWS                     52
+COLS                     40
+TOT_TIME                 1500
+TIMESTEP                 10
+OUTROW                   4
+OUTCOL                   38
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Uniform.idx" "2f923c3d-2100-4c5e-9744-33c7ab0a8d17" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_Soils_Imported.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           40.000000
+RAIN_DURATION            120
+START_DATE               2022 11 13
+START_TIME               21 33

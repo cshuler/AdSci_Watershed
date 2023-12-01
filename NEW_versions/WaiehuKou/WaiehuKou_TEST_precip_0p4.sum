@@ -1,0 +1,45 @@
+
+
+_________GSSHA start-up information________
+Run parameters read from WMS project file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_TEST_precip_0p4.prj
+reading watershed mask from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_TEST_precip_0p4.msk
+number of grid cells in watershed: 108979
+reading elevation map from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_TEST_precip_0p4.ele
+outlet is in grid cell: 7238
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx category 1 has 2587 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx category 11 has 8943 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx category 34 has 79 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx category 44 has 10336 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx category 48 has 22304 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx category 51 has 45835 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx category 52 has 36 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\SoilType2.idx category 53 has 18859 values
+reading saturated hydraulic conductivity table and map from the master table file
+reading capillary drive map from the master table file
+reading porosity table and map from the master table file
+reading pore distribution index map from master table file
+reading residual saturation map from the master table file
+reading soil moisture table and map from the master table file
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Uniform_Init_Moisture_Code.idx category 1 has 108979 values
+reading roughness table and map from master table file
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 4 has 1080 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 5 has 7387 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 6 has 15386 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 7 has 8364 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 8 has 3673 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 9 has 1909 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 10 has 594 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 14 has 11975 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 15 has 11920 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 16 has 16456 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 17 has 22998 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 19 has 138 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 21 has 5398 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 22 has 953 values
+In map C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Landuse2.idx category 24 has 748 values
+writing output for optimization to file 
+Running.... 
+
+reading precip data from file: C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_TEST_precip_0p4.gag
+
+

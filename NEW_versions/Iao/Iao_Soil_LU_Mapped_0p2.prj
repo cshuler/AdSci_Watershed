@@ -1,0 +1,36 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     84
+COLS                     111
+TOT_TIME                 1440
+TIMESTEP                 60
+OUTROW                   32
+OUTCOL                   110
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\SoilTypeMap.idx" "879c7c48-acc1-49a4-8330-a76792a08a1d" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx" "7609209a-a68b-4b69-9366-e4f0db2e97bf" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_Soil_LU_Mapped_0p2.otl"
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2023 11 20
+START_TIME               20 45

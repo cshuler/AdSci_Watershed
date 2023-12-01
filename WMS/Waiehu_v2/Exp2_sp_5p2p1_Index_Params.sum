@@ -1,0 +1,10 @@
+
+
+_________GSSHA start-up information________
+Run parameters read from WMS project file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.prj
+reading watershed mask from file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.msk
+number of grid cells in watershed: 1589
+reading elevation map from file: C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p2p1_Index_Params.ele
+outlet is in grid cell: 631
+reading roughness table and map from master table file
+

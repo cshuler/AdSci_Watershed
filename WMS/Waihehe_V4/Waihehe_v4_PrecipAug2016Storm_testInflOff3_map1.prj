@@ -1,0 +1,33 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 100.000000
+ROWS                     52
+COLS                     40
+TOT_TIME                 7200
+TIMESTEP                 60
+OUTROW                   4
+OUTCOL                   38
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Uniform.idx" "2f923c3d-2100-4c5e-9744-33c7ab0a8d17" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Soil_typo.idx" "754f5a8a-9259-4fa8-824c-14614f8f76b1" 1
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\Waihehe_V4\Waihehe_v4_PrecipAug2016Storm_testInflOff3_map1.gag"
+RAIN_INV_DISTANCE

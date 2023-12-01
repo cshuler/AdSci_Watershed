@@ -1,0 +1,34 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 25.000000
+ROWS                     126
+COLS                     296
+TOT_TIME                 1440
+TIMESTEP                 60
+OUTROW                   13
+OUTCOL                   296
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\Soiltypes.idx" "7f360b7c-6f2d-4bf1-a809-8bebe6d1bb93" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\LandCover.idx" "7b4719aa-a72a-41b4-840a-2d1010c4c433" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\Uniform_Init_Moisture_Code.idx" "7f4622bf-10f0-4341-9452-498c5f2da62c" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\S_Waiehu\S_Waiehu_InitialPrecip_0p4.gag"
+RAIN_INV_DISTANCE

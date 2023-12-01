@@ -1,0 +1,30 @@
+GSSHAPROJECT
+WMS WMS 11.1.4 (64-bit)
+WATERSHED_MASK           "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.msk"
+PROJECT_PATH             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\"
+#LandSoil                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.lsf"
+#PROJECTION_FILE         "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.map"
+METRIC
+GRIDSIZE                 100.000000
+ROWS                     42
+COLS                     56
+TOT_TIME                 4320
+TIMESTEP                 60
+OUTROW                   16
+OUTCOL                   56
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.ele"
+DEPTH                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\SoilType.idx" "017b7df0-0875-4155-a2f4-071b28445a40" 1
+MAPPING_TABLE            "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.cmt"
+SUMMARY                  "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.sum"
+OUTLET_HYDRO             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.otl"
+QUIET
+PRECIP_FILE              "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waiehu_v2\Exp2_sp_5p1_precipTest2.gag"
+RAIN_INV_DISTANCE

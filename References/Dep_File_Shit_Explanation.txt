@@ -1,0 +1,8 @@
+https://forum.aquaveo.com/topic/2679-format-of-gsshadep-file/
+
+
+The .dep file just has water depth solution values for each of the cells for each output time step.  I don't know that the file format is documented anywhere, but maybe I can try to track something down if you need me to.  The important values you would use if you were reading this file are the number of cells in the model, which is in the "ND" card at the top of the file, the name of the dataset (NAME card), whether each cell is active/inactive (these values do not change for each time step), and the solution values for each cell (these values DO change for each time step).  It's just a text file, so you can open the file in a text editor and look at it to see what I'm talking about.  The active/inactive and the solution values are for each cell (based on the cell ID) and you cannot determine the actual location with just this file.  The values are listed in the .dep file in the order of the cell ID's.  If you have the location of the center of the upper left cell of your grid and you know the number of rows and columns in your grid, you can determine the location of the center of any other cell from the cell ID.  The cells are numbered starting from the upper left corner of the grid.
+
+Let me know if you have any other questions.
+
+Chris

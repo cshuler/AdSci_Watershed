@@ -1,0 +1,31 @@
+GSSHAPROJECT
+WMS WMS 11.1.4 (64-bit)
+WATERSHED_MASK           "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.msk"
+PROJECT_PATH             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\"
+#LandSoil                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.lsf"
+#PROJECTION_FILE         "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 100.000000
+ROWS                     52
+COLS                     40
+TOT_TIME                 780
+TIMESTEP                 60
+OUTROW                   4
+OUTCOL                   38
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.ele"
+DEPTH                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.dep"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\SoilTypeo.idx" "bfd309ba-8270-4ab7-827f-37ae8eca4aa8" 1
+MAPPING_TABLE            "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.cmt"
+SUMMARY                  "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.sum"
+OUTLET_HYDRO             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.otl"
+PRECIP_FILE              "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\Waihehe_v1\Waihehe_v1_sp_5p2_RainGauge_3.gag"
+RAIN_INV_DISTANCE

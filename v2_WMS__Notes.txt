@@ -1,0 +1,125 @@
+- in arc clipped and projected dem into WGS84-UTMz4n
+- added DEM_clip300mUTM.tif to GIS data in WMS - then r-click and converted to project DEM (Accepted defaults cell size etc)  
+- Identified Outlet points on shapemap, imported file into WMS, manually made outlet points on flow accumulation areas
+- Used deliniate basins wizard to make basins, defualt parameters
+
+
+
+Following the Tutorial file WMS_TUTORIALS-Vol_2.pdf
+
+The first step in creating a GSSHA model using WMS is to delineate a watershed and obtain a watershed boundary polygon from a digital elevation model.
+
+1) In the Drainage Module , select DEM | Compute TOPAZ Flow Data and Click OK twice to accept the default TOPAZ input.
+- saved Topaz files to a specified directory, 
+- changed units to acres and meters
+- kept model units current projection
+- ran the topaz program 
+
+2) need to create an outlet point to delineate a watershed. Create test one by using the Create Outlet Point button at the location where there is a USGS gauge used Ad_Sci_USGS_gauges.shp to see and manually plopped outlet point on the southernmost stream gauge
+
+3)  Select DEM | Delineate Basins Wizard   used a default threshold of 320 acres (took a while to run) 
+
+Save point 1: Exp2_sp_1p0_Basin_deliniated
+
+4) Create grid within the deliniated basin Switch to Map Module by Click on Select Feature Polygon Tool and right click anywhere within the watershed polygon. Select Create Grid.(pg 1-4)  (for testing used base cell size of 100 (10 is better and 5 is max for 5m dem) use defaults for interpolate elevations from DEM and other otopns. 
+
+5) Clean out digital dams: run Cleandam: 
+- Make sure 2d grid module is active
+- Select GSSHA | Clean Digital Dams    - hit close
+
+Save point 2: Exp2_sp_2p0_Grid_100m_Defined
+
+6) Import Soil data 
+6.1) Create Soil Type Coverage
+- Right-click Coverages folderselect New Coverage, Change Type to Soil Type
+6.2) Right click GIS data on left, add shapefile data: Used: 
+Ssurgo_Soils_data_fromWMS--> Soils_v1_ssurgo--> soilmu_a_hi980.shp
+6.3) Right click on soilmu_a_hi980.shp and select Join NRCS Data.  Toggle the Fill blank values and Compute Hydraulic… options on. and just click OK. (note that this seems to just populate the shapefile attribute table, not exactly sure where it gets the data.  My best recollection is that I pulled that shapefile data off of the NRCS website with one of their whacky searches, no idea what parameters I used....) 
+6.4) convert the shape file to a coverage: 
+  -  Right-click on the GSSHA coverage and select Zoom To Layer to set the current view so you are zoomed to your GSSHA model.
+  - Click on the Soil Type coverage in the Coverages list to make it the active coverage.
+  - Select the soil.....shp GIS layer by clicking on it. This will change the active module to the GIS module.
+ -  Click the Select shapes tool and drag a rectangle around (and a little outside) the watershed to select the soil polygons that overlay the watershed.
+  - In the GIS Module, select Mapping | Shapes -> Feature Objects. Select Next. Notice that the fields should be mapped properly. Click Next again. Select Finish and wait for WMS to convert the selected shapes to feature objects in the map module. 
+
+
+Save point 3: Exp2_sp_3p0_Soils_Mapped
+
+7) Create an Index Map from Soil Data
+  - Switch to the 2D Grid Module Select GSSHA | Maps  For the Input coverage (1), use the Soil Type coverage.
+  - Coverage Attribute is set to Texture. Change the Index map name to SoilType
+  - Click on the Coverages -> Index Map button.
+
+7.2) Creating a Mapping Table from the Index Map
+  - In 2D Grid Module select GSSHA | Map Tables, Select the Infiltration tab.Yes to open Job Control window to turn on infiltration. (in Job Control) Infiltration heading, select Green + Ampt with soil moisture redistribution. Select OK (In map tables again) Using Index Map drop down box, choose Soil Type. Click on Generate IDs button. 
+
+It left some fields as Zeros, moving forard here with *random numbers but probably need to define these better someday
+
+Bedrock	Bouldery silty clay loam
+	
+0.558020	10.080000
+15.000000	15.000000*
+0.050000	0.100000*
+0.200000	0.200000*
+0.010000	0.010000*
+0.283000	0.133000
+0.164000	0.092000
+
+- Switch to the Initial Moisture tab. Using index map drop down box, select the Soil Type index map. Generate IDs button.  Autofilled values, I used those. Click Done.
+
+
+Save point 4: Exp2_sp_4p0_Soils_Indexed
+
+8) Come up with some roughness values, these are basically Mannings N
+- in GSSHA  - > Map Tables, go to Roughness tab, use soil type index map, come up with some test roughness values 
+
+Silty clay loam	Bedrock
+	
+0.3*	0.1*
+
+*random numbers but probably need to define these better
+
+Save point 4p1: Exp2_sp_4p1_Roughness_Indexed
+
+9) Add precip Heterograph - Using a .xys file as described in email from WMS support Subject "WMS support for Soils import into watershed model" and created using Jupyter notebook "Timeseries stuff" import working heterograph file.   Make sure to understand total time of heterograph file for runtime in minutes. 
+
+To add precip click on GSSHA  --> Precipitation
+Change rainfall event(s) to heterograph
+click define distribution
+click import  - select sliceframe.xys file (note that if the number of readings is not correct it wont import, no error message no nothing - (Fuck you WMS developers)
+Click OK twice if it works
+
+
+10) Change some GSSHA Job Control parameters, in 2d-grid module select GSSHA at top and open job control. 
+- Change total time minutes to at leas the heterograph time
+- Change Time step to whatever (using 60 now)  
+- Click on Output Control and choose your Output Units to be English
+
+Save point 5p0: Exp2_sp_5_precip_added
+
+Time to test run da faka
+
+Save again as Exp2_sp_5p1_precip_test1
+do GSSHA check model - if no errors
+do GSSHA run model 
+
+
+
+
+
+
+
+
+
+
+Recycle Bin
+
+
+Test   Point 5 Exp2_sp_5p0_Add_LandUse
+- I can Add the land use in as explained in this tutorial https://s3.amazonaws.com/wmstutorials-11.1.aquaveo.com/GSSHA-Roughness.pdf
+BUT I realized that maybe the info I have assosiated with my land use which are curve numbers are not useful for GSSHA, it doesn't seem to work with curve numbers.  Looks like the Green and ampt infiltration is tied to soil properties and now I will need to FIND any additional paramaters for land use including roughness and perhaps canopy interceptin??
+
+
+
+
+

@@ -1,0 +1,32 @@
+GSSHAPROJECT
+WMS WMS 11.1.4 (64-bit)
+WATERSHED_MASK           "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2roughnessDef.msk"
+PROJECT_PATH             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\"
+#PROJECTION_FILE         "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2roughnessDef_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2roughnessDef.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     127
+COLS                     151
+TOT_TIME                 1500
+TIMESTEP                 30
+OUTROW                   4
+OUTCOL                   151
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 15
+MAP_TYPE                 1
+ELEVATION                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2roughnessDef.ele"
+DEPTH                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2roughnessDef.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\uniform.idx" "6e7d9256-818a-41ba-914d-ad222d17cce6" 0
+MAPPING_TABLE            "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2roughnessDef.cmt"
+SUMMARY                  "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2roughnessDef.sum"
+OUTLET_HYDRO             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\3p2roughnessDef.otl"
+PRECIP_UNIF
+RAIN_INTENSITY           90.000000
+RAIN_DURATION            120
+START_DATE               2022 01 30
+START_TIME               07 29

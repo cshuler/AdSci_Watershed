@@ -1,0 +1,30 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     66
+COLS                     112
+TOT_TIME                 4320
+TIMESTEP                 60
+OUTROW                   14
+OUTCOL                   96
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\SoilType.idx" "fa4a116b-23d0-4bf9-86e5-a743e2ccab38" 1
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v2_50m_PrecipTestGagFaka4wms.gag"
+RAIN_INV_DISTANCE

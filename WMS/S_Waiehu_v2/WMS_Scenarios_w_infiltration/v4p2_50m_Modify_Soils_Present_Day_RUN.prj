@@ -1,0 +1,36 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     63
+COLS                     146
+TOT_TIME                 2880
+TIMESTEP                 60
+OUTROW                   6
+OUTCOL                   146
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\soiloTypo.idx" "74cb163f-e53c-4b94-a1f0-152ec3edb3a3" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\Hi_Intensity_LU.idx" "23dd08a7-d5b1-4db4-be6e-9f5273619412" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\Uniform_Init_Moisture_Code.idx" "cdf14f15-00b4-4935-a2d5-c4becde85ebe" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\Low_intensity_LU_Map.idx" "5f68b210-e97b-431d-ae51-9e63e3084cb5" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\PresentDay_LU_Map.idx" "8c6d1798-962e-47b5-abfd-12c34a772001" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\S_Waiehu_v2\WMS_Scenarios_w_infiltration\v4p2_50m_Modify_Soils_Present_Day_RUN.gag"
+RAIN_INV_DISTANCE

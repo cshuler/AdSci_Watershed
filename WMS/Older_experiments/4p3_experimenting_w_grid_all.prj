@@ -1,0 +1,31 @@
+GSSHAPROJECT
+WMS WMS 11.1.4 (64-bit)
+WATERSHED_MASK           "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\4p3_experimenting_w_grid_all.msk"
+PROJECT_PATH             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\"
+#PROJECTION_FILE         "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\4p3_experimenting_w_grid_all_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\4p3_experimenting_w_grid_all.map"
+METRIC
+GRIDSIZE                 100.000000
+ROWS                     101
+COLS                     109
+TOT_TIME                 500
+TIMESTEP                 2
+OUTROW                   17
+OUTCOL                   92
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\4p3_experimenting_w_grid_all.ele"
+DEPTH                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\4p3_experimenting_w_grid_all.dep"
+OVERTYPE                 ADE
+MAPPING_TABLE            "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\4p3_experimenting_w_grid_all.cmt"
+SUMMARY                  "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\4p3_experimenting_w_grid_all.sum"
+OUTLET_HYDRO             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\4p3_experimenting_w_grid_all.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2022 01 27
+START_TIME               10 52

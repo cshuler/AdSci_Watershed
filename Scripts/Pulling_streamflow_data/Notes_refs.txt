@@ -1,0 +1,1 @@
+Go look in google drive ad sci folder for colab script

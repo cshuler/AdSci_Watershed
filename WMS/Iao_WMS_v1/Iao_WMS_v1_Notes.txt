@@ -1,0 +1,153 @@
+- added DEM_clip300mUTM.tif to GIS data in WMS - then r-click and converted to project DEM (Accepted defaults cell size etc) 
+
+1) In the Drainage Module , select DEM | Compute Flow Direction/accumulation and Click OK twice to accept the default TOPAZ input.
+- saved Topaz files to a specified directory, 
+- changed units to acres and meters
+- kept model units current projection
+- ran the topaz program 
+- Be sure that read solution on exist is checked 
+
+2) need to create an outlet point to delineate a watershed. 
+Used USGS file in C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\Data\GIS\Stream_Gauges to show the general location then after clicking the little basin button at the top used the yellow dot create outlet point to make the outlet
+
+3)  With the basins module still active, Select DEM | Delineate Basins Wizard   used a default threshold of 100 acres
+
+Save Point Iao_v1_BasinDelinated.wms
+
+testing with 
+20 m 
+50 m 
+100 m 
+
+4) Create grid within the deliniated basin Switch to Map Module by Click on Select Feature Polygon Tool and right click anywhere within the watershed polygon. Select Create Grid.(pg 1-4)    use defaults for interpolate elevations from DEM and other otopns. 
+
+5) Clean out digital dams: run Cleandam: 
+- Make sure 2d grid module is active
+- Select GSSHA | Clean Digital Dams    - hit close
+
+Save Point Iao_v1_GridDefined_20m.wms
+Save Point Iao_v1_GridDefined_20m.wms
+Save Point Iao_v1_GridDefined_100m.wms
+
+
+6) ) Create Land Use Coverage to assign roughness params 
+- Right-click Coverages folder select New Coverage, Select and Name as Land Use
+
+Right click GIS data on left, add shapefile data: Used: Data --> GIS --> Land_Cover_Future_Brewington -->  Maui_PresentDay2017_Clip_CN_ManN.shp
+
+With the add shapefile r-click on the GIS data tab
+- Select all shapes, In the GIS Module, select Mapping | Shapes -> Feature Objects. Select Next  
+    - LUCODE should map to Land Use,  
+    - I mapped description to name. 
+
+6.3) Create an Index Map from land use 
+   - with grid selected go to GSSHA at top,
+   - Select Maps 
+   - input coverage Land Use
+   - Map Name 2017_LandUse
+   - Click Coverages to Index Map then done 
+
+6.4 Assign index maps Roughness vlaues 
+   - with grid selected go to GSSHA at top,  select Map Tables  On Roughness Tab: 
+   - Using Map 2017_LandUse Generate IDS: 
+
+Assign parameter values to be paramaterized with Python: Just using the ID number with a -10 in front of it for example below we have: 
+
+7	8	14	15	16	17	21	22
+And it should be input as 
+-107	-108	-1014	-1015	-1016	-1017	-1021	-1022
+
+
+Save Point Iao_v1_LU_Roughness_50m.wms
+Save Point Iao_v1_LU_Roughness_20m.wms
+Save Point Iao_v1_LU_Roughness_100m.wms
+
+
+7) Precip gauge setup 
+go GSSHA menu precipitation 
+Rainfall events as gage
+click OK 
+
+
+
+8) .prj settings Job control 
+ GSSHA menu on grid selected, Job control 
+- Using scrap time of 42 minutes
+- Time step of 60 sec 
+Output Control 
+- Check flood max depth in gridded data sets 
+- change write frequency to 60 mins for both regular and hydrograph sections 
+- change to english CFS units 
+- Turn off supress screen printing 
+
+
+Save Point Iao_v1_PrecipGag_50m.wms
+Save Point Iao_v1_PrecipGag_20m.wms
+Save Point Iao_v1_PrecipGag_100m.wms
+
+
+
+9) Import Soil data 
+9.1) Create Soil Type Coverage
+- Right-click Coverages folderselect New Coverage, Change Type to Soil Type
+9.2) Right click GIS data on left, add shapefile data: Used: 
+Ssurgo_Soils_data_fromWMS--> Soils_v1_ssurgo--> soilmu_a_hi980.shp
+9.3) Right click on soilmu_a_hi980.shp and select Join NRCS Data.  Toggle the Fill blank values and Compute Hydraulic… options on. and just click OK. (note that this seems to just populate the shapefile attribute table, not exactly sure where it gets the data.  My best recollection is that I pulled that shapefile data off of the NRCS website with one of their whacky searches, no idea what parameters I used....) 
+9.4) convert the shape file to a coverage: 
+  -  Right-click on the GSSHA coverage and select Zoom To Layer to set the current view so you are zoomed to your GSSHA model.
+  - Click on the Soil Type coverage in the Coverages list to make it the active coverage.
+  - Select the soil.....shp GIS layer by clicking on it. This will change the active module to the GIS module.
+ -  Click the Select shapes tool and drag a rectangle around (and a little outside) the watershed to select the soil polygons that overlay the watershed.
+  - In the GIS Module, select Mapping | Shapes -> Feature Objects. Select Next. Notice that the fields should be mapped properly. Click Next again. Select Finish and wait for WMS to convert the selected shapes to feature objects in the map module. 
+
+
+10) Create an Index Map from Soil Data
+  - Switch to the 2D Grid Module Select GSSHA | Maps  For the Input coverage (1), use the Soil Type coverage.
+  - Coverage Attribute is set to Texture. Change the Index map name to SoilType
+  - Click on the Coverages -> Index Map button.
+
+
+11) In Job control Turned on Greene and Apmpt soil infiltration
+
+11.2) in the GSSHA Map tables went to infiltration tab, selected SoilTypoMap and then generate IDS.  It fills in the following 
+
+ID = 5	21
+Description = Bouldery silty clay loam	Bedrock	
+HK            = 10.080000	0.558020
+Capilary head = 0.000000	0.000000
+Porosity      = 0.000000	0.000000
+Poredist.index= 0.000000	0.000000
+Res Sat       = 0.000000	0.000000
+Field cap     = 0.133000	0.283000
+Wilt point    = 0.092000	0.164000
+
+For Infiltration parameterization tab I want to use 
+
+-251.000000	-2211.000000
+-252.000000	-2212.000000
+-253.000000	-2213.000000
+-254.000000	-2214.000000
+-255.000000	-2215.000000
+-256.000000	-2216.000000
+-257.000000	-2217.000000
+
+
+
+12) Initial moisture This is best accomplished with many model run days beforehand in long-term Sim. But because we are just comparing the different land use effects here we will just hold this constant. 
+
+ - with grid selected go to GSSHA at top,  select Maps...
+ - use the soil type map and texture as the attribute 
+ - saved the Ixd map name as InitialMoisture
+ - click coverages to index map 
+
+Then - with grid selected go to GSSHA at top,  select Map Tables  On Initial moisture Tab: 
+- use InitialMoisture and click generate IDs, it poulated with this: 
+ID     = 5	21
+Desc   = Bouldery silty clay loam	Bedrock
+InMois = 0.060000	0.150000
+
+Changing to  FOR parameterization
+-351	-3211
+
+
+Save point Iao_v1_Soils_inflf_100m.wms

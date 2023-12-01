@@ -1,0 +1,33 @@
+GSSHAPROJECT
+WMS WMS 11.1.4 (64-bit)
+WATERSHED_MASK           "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform.msk"
+PROJECT_PATH             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\"
+#PROJECTION_FILE         "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 100.000000
+ROWS                     101
+COLS                     109
+TOT_TIME                 1500
+TIMESTEP                 60
+OUTROW                   17
+OUTCOL                   92
+OUTSLOPE                 0.010000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform.ele"
+DEPTH                    "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform.dep"
+SURF_MOIST               "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform.sur"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\Uniform.idx" "0a6aeebc-1978-4118-b7ab-f2765b79d0c7" 0
+MAPPING_TABLE            "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform.cmt"
+SUMMARY                  "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform.sum"
+OUTLET_HYDRO             "C:\Users\1553c\Desktop\Local_Project_junk_folders\AdSci_Watershed\WMS\ExperimentationPhase\5_frm4p3_precip_roughuniform.otl"
+PRECIP_UNIF
+RAIN_INTENSITY           80.000000
+RAIN_DURATION            120
+START_DATE               2022 01 27
+START_TIME               10 52

@@ -1,0 +1,32 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v1_Uniform_10mgrid.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v1_Uniform_10mgrid_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v1_Uniform_10mgrid.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 10.000000
+ROWS                     327
+COLS                     560
+TOT_TIME                 1500
+TIMESTEP                 60
+OUTROW                   63
+OUTCOL                   477
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v1_Uniform_10mgrid.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v1_Uniform_10mgrid.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\uniform1.idx" "f65663a0-600e-4d17-8bb0-d30d534ecb34" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v1_Uniform_10mgrid.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v1_Uniform_10mgrid.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\WMS\WaiehuKou_v1\WaiehuKou_v1_Uniform_10mgrid.otl"
+PRECIP_UNIF
+RAIN_INTENSITY           40.000000
+RAIN_DURATION            120
+START_DATE               2022 11 13
+START_TIME               22 15
