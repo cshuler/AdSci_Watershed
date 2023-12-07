@@ -1,0 +1,34 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.msk"
+PROJECT_PATH             "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\"
+#LandSoil                "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.lsf"
+#PROJECTION_FILE         "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 15.000000
+ROWS                     218
+COLS                     374
+TOT_TIME                 1400
+TIMESTEP                 60
+OUTROW                   2
+OUTCOL                   214
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.ele"
+DEPTH                    "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.dep"
+FLOOD_GRID               "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\soil.idx" "8ef4fe0b-316b-4922-934f-c9612fb49565" 1
+#INDEXGRID_GUID          "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\LU.idx" "4ec55b67-b5d7-4366-b6b7-e927050480c3" 0
+#INDEXGRID_GUID          "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\uni.idx" "28cbb976-6659-4e94-a21d-e25cc9bb9d27" 0
+MAPPING_TABLE            "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.cmt"
+SUMMARY                  "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.sum"
+OUTLET_HYDRO             "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.otl"
+PRECIP_FILE              "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\WaiehuKou\WaiehuKou_15m_Soil_LU_Mapped_Precip_test1.gag"
+RAIN_INV_DISTANCE

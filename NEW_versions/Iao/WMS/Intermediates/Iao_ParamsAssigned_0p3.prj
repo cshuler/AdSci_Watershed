@@ -1,0 +1,37 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     84
+COLS                     111
+TOT_TIME                 1440
+TIMESTEP                 60
+OUTROW                   32
+OUTCOL                   110
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.ele"
+DEPTH                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.dep"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\SoilTypeMap.idx" "f8ec810c-e215-445f-8f00-df70425fde1f" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\LandUseMap.idx" "0476a065-e56b-40b5-a3ea-a0a7f4e69d16" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Uniform_Init_Moisture_Code.idx" "527681aa-0c0d-4fe8-8c8f-e88f2afc0033" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\Iao\Iao_ParamsAssigned_0p3.otl"
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2023 11 20
+START_TIME               20 45

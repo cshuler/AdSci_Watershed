@@ -1,0 +1,34 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.msk"
+PROJECT_PATH             "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\"
+#LandSoil                "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.lsf"
+#PROJECTION_FILE         "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 50.000000
+ROWS                     84
+COLS                     111
+TOT_TIME        1500
+TIMESTEP                 60
+OUTROW                   32
+OUTCOL                   110
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.ele"
+DEPTH                    "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.dep"
+FLOOD_GRID               "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\SoilTypeMap.idx" "f8ec810c-e215-445f-8f00-df70425fde1f" 1
+#INDEXGRID_GUID          "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\LandUseMap.idx" "0476a065-e56b-40b5-a3ea-a0a7f4e69d16" 0
+#INDEXGRID_GUID          "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Uniform_Init_Moisture_Code.idx" "527681aa-0c0d-4fe8-8c8f-e88f2afc0033" 0
+MAPPING_TABLE            "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.cmt"
+SUMMARY                  "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.sum"
+OUTLET_HYDRO             "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.otl"
+PRECIP_FILE              "C:\Users\WRRCuser\Desktop\GitHub_repo_copies\AdSci_Watershed\NEW_versions\Iao\Scripts\RUN\Iao_Soil_Initial_Precip_0p4.gag"
+RAIN_INV_DISTANCE
