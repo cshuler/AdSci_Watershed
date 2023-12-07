@@ -1,0 +1,33 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\"
+#LandSoil                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.map"
+METRIC
+QOUT_CFS
+GRIDSIZE                 15.000000
+ROWS                     218
+COLS                     374
+TOT_TIME                 1400
+TIMESTEP                 60
+OUTROW                   2
+OUTCOL                   214
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.ele"
+FLOOD_GRID               "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.gfl"
+OVERTYPE                 ADE
+INF_REDIST
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\soil.idx" "8ef4fe0b-316b-4922-934f-c9612fb49565" 1
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\LU.idx" "4ec55b67-b5d7-4366-b6b7-e927050480c3" 0
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\uni.idx" "28cbb976-6659-4e94-a21d-e25cc9bb9d27" 0
+MAPPING_TABLE            "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.otl"
+PRECIP_FILE              "C:\Users\CS\Desktop\Local_Project_Folders\AdSci_Watershed\NEW_versions\WaiehuKou\Scripts\RUN\WaiehuKou_15m_READY.gag"
+RAIN_INV_DISTANCE
