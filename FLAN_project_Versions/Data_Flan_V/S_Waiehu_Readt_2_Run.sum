@@ -1,0 +1,43 @@
+
+
+_________GSSHA start-up information________
+Run parameters read from WMS project file: C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\S_Waiehu_Readt_2_Run.prj
+reading watershed mask from file: C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\S_Waiehu_Readt_2_Run.msk
+number of grid cells in watershed: 3763
+reading elevation map from file: C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\S_Waiehu_Readt_2_Run.ele
+outlet is in grid cell: 71
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\SoilType.idx category 1 has 118 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\SoilType.idx category 3 has 246 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\SoilType.idx category 4 has 812 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\SoilType.idx category 7 has 138 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\SoilType.idx category 8 has 2180 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\SoilType.idx category 9 has 2 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\SoilType.idx category 11 has 267 values
+reading saturated hydraulic conductivity table and map from the master table file
+reading capillary drive map from the master table file
+reading porosity table and map from the master table file
+reading pore distribution index map from master table file
+reading residual saturation map from the master table file
+reading soil moisture table and map from the master table file
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Uniform_Init_Moisture_Code.idx category 1 has 3763 values
+reading roughness table and map from master table file
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 4 has 4 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 6 has 891 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 7 has 211 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 8 has 109 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 9 has 34 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 10 has 34 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 14 has 259 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 15 has 452 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 16 has 544 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 17 has 601 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 19 has 3 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 21 has 605 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 22 has 13 values
+In map C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\Base_LU.idx category 25 has 3 values
+writing output for optimization to file 
+Running.... 
+
+reading precip data from file: C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\Data_Flan_V\S_Waiehu_Readt_2_Run.gag
+
+
