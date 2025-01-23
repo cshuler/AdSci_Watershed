@@ -1,0 +1,33 @@
+GSSHAPROJECT
+WMS WMS 11.1.10 (64-bit)
+WATERSHED_MASK           "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2.msk"
+PROJECT_PATH             "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\"
+#LandSoil                "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2.lsf"
+#PROJECTION_FILE         "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2.map"
+METRIC
+GRIDSIZE                 50.000000
+ROWS                     63
+COLS                     145
+TOT_TIME                 500
+TIMESTEP                 2
+OUTROW                   6
+OUTCOL                   145
+OUTSLOPE                 0.001000
+MAP_FREQ                 30
+HYD_FREQ                 30
+MAP_TYPE                 1
+ELEVATION                "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2.ele"
+DEPTH                    "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2.dep"
+OVERTYPE                 ADE
+#INDEXGRID_GUID          "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\SoilType.idx" "fbdf7cb5-4e77-46cb-8527-483ed8b89427" 1
+MAPPING_TABLE            "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2.cmt"
+SUMMARY                  "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2.sum"
+OUTLET_HYDRO             "C:\Users\CS\Desktop\Git_Repos\AdSci_Watershed\FLAN_project_Versions\WMS_Files\Flan_Onboarding_V1\S_Waiehu_Soils_Mapped_0p2.otl"
+QUIET
+PRECIP_UNIF
+RAIN_INTENSITY           0.000000
+RAIN_DURATION            0
+START_DATE               2025 01 22
+START_TIME               13 38

@@ -16,7 +16,7 @@ Notes V 4   S_Waiehu_stream_development
 3)  Select DEM | Delineate Basins Wizard   used a default threshold of 100 acres (took a while to run) 
 
 
-Save point 1: S_Waiehu_Basin_deliniated_0p1  (Note go back to here to change grid cell size) 
+Save point 1: S_Waiehu_Basin_deliniated_0p1.wms  (Note go back to here to change grid cell size) 
 
 
 4) Create grid within the deliniated basin Switch to Map Module by Click on Select Feature Polygon Tool and right click anywhere within the watershed polygon. Select Create Grid.(pg 1-4)  Using 50 m cell size.   use defaults for interpolate elevations from DEM and other otopns. 
@@ -55,8 +55,9 @@ For the parameters copied over ones from here: https://www.gsshawiki.com/Infiltr
 
 - Using total time of 1440 minutes
 - Time step of 60 sec 
+- In Job control Turned on Greene and Apmpt soil infiltration
 
-- In gridded datasets Check box on Flood Max depth checkbox 
+
 
 Output control 
 - Write Frequency 30 mins 
@@ -64,6 +65,7 @@ Output control
 - English units (CFS) 
 - Turn off surpress screen printing
 
+- In gridded datasets Check box on Flood (Max) depth checkbox 
 
 
 8)  7.2) Creating a Mapping Table from the Index Map 
@@ -110,7 +112,7 @@ Now puting in land use:
 
 8) Create Land Use Coverage
 - Right-click Coverages folder select New Coverage, Change Type to Land Use   
--  Name Base_Case_Land Use
+-  Name Base_Case_Land_Use
 
 
 - 8.2) Right click GIS data on left, add shapefile data: Used: Maui_PresentDay2017_Clip_CN
@@ -131,7 +133,7 @@ With the add shapefile r-click on the GIS data tab
 
 8.4 Assign index maps Roughness vlaues 
    - with grid selected go to GSSHA at top,  select Map Tables  On Roughness Tab: 
-   - Using Map Hi_Intensity_LU Generate IDS: 
+   - Using Map Base_LU Generate IDS: 
    - Wont automatically Map, need to use the following table to map: These calcilations are in excel sheet called 
 Roughness_table_maker_from_LU_SHP.xlsx in AdSci_Watershed\Data\GIS\Land_Cover_Future_Brewington\Development_Scenarios
 
